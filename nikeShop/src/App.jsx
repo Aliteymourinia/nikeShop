@@ -1,7 +1,6 @@
 import { Component, useState } from "react";
 import "./App.css";
 import ShoeList from "./components/ShoeList";
-import Navbar from "./components/Navbar";
 import Button from "@mui/material/Button";
 
 function App() {
@@ -9,10 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Button variant="contained">Hello world</Button>
-      <Navbar />
+      <Button variant="contained">add to cart</Button>
       {/* Use ShoeItem here if needed */}
-      <h1>hhh</h1>
     </div>
   );
 }
