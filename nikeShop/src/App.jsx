@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      
       {/* Use ShoeItem here if needed */}
+      <h1>hhh</h1>
     </div>
   );
 }
