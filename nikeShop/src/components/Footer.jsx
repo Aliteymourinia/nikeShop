@@ -1,8 +1,6 @@
 // src/components/Footer.js
 import React from "react";
 import styled from "styled-components";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-
 const FooterContainer = styled.div`
   background-color: #333;
   color: white;
