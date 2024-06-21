@@ -11,7 +11,12 @@ import Footer from "./components/Footer";
 function App() {
   // Add more shoes as needed
 
-  return <div className="App">{/* Use ShoeItem here if needed */}</div>;
+  return (
+    <div className="App">
+      <Header />
+     
+    </div>
+  );
 }
 
 export default App;

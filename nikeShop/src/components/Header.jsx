@@ -1,8 +1,12 @@
-// src/components/Header.jsx
 import React from "react";
-
+import Logo from "../assets/Nike.jsx";
 const Header = () => {
-  return <header>{/* Add your logo and navigation links here */}</header>;
+  return (
+    <header>
+      <Logo />
+      {/* Add your logo and navigation links here */}
+    </header>
+  );
 };
 
 export default Header;
