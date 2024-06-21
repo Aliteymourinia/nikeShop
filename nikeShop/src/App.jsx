@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header className="" />
+      <Header />
     </div>
   );
 }
