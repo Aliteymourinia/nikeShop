@@ -1,16 +1,16 @@
 import { Component, useState } from "react";
 import "./App.css";
 import Button from "@mui/material/Button";
-
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import ProductListing from "./components/ProductListing";
+import ProductDetails from "./components/ProductDetails";
+import Cart from "./components/Cart";
+import Footer from "./components/Footer";
 function App() {
   // Add more shoes as needed
 
-  return (
-    <div className="App">
-      <Button variant="contained">add to cart</Button>
-      {/* Use ShoeItem here if needed */}
-    </div>
-  );
+  return <div className="App">{/* Use ShoeItem here if needed */}</div>;
 }
 
 export default App;
