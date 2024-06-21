@@ -1,12 +1,8 @@
 // src/components/Header.jsx
-import React from 'react';
+import React from "react";
 
 const Header = () => {
-  return (
-    <header>
-      {/* Add your logo and navigation links here */}
-    </header>
-  );
+  return <header>{/* Add your logo and navigation links here */}</header>;
 };
 
 export default Header;
