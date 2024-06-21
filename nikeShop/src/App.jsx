@@ -1,6 +1,5 @@
 import { Component, useState } from "react";
 import "./App.css";
-import ShoeList from "./components/ShoeList";
 import Button from "@mui/material/Button";
 
 function App() {
