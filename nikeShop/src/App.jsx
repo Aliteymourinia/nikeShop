@@ -7,6 +7,7 @@ import ProductListing from "./components/ProductListing";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
+
 function App() {
   // Add more shoes as needed
 
