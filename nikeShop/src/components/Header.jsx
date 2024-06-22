@@ -15,8 +15,12 @@ const Header = () => {
         <a href="#customize">Customize</a>
       </nav>
       <div className="iconContainer flex gap-4 mx-6">
-        <FontAwesomeIcon icon={faSearch} />
-        <FontAwesomeIcon icon={faCartShopping} />
+        <a href="/search">
+          <FontAwesomeIcon icon={faSearch} />
+        </a>
+        <a href="/cart">
+          <FontAwesomeIcon icon={faCartShopping} />
+        </a>
       </div>
     </div>
   );
