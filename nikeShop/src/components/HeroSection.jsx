@@ -1,12 +1,7 @@
-// src/components/HeroSection.jsx
 import React from "react";
 import { Button, Select } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import {
-  fa0,
-  faBasketShopping,
-  faShoppingBag,
-} from "@fortawesome/free-solid-svg-icons";
+import {} from "@fortawesome/free-solid-svg-icons";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 const HeroSection = () => {
   return (
