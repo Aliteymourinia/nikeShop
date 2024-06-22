@@ -1,5 +1,11 @@
 import React from "react";
-import { AppBar, Card, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  Card,
+  Toolbar,
+  Typography,
+  outlinedInputClasses,
+} from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
