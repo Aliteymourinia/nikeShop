@@ -7,7 +7,7 @@ import nikeShoe from "../assets/nikeShoe.png";
 const HeroSection = () => {
   return (
     <section className="hero flex flex-row p-10 items-center">
-      <div className="relative left-16">
+      <div className="relative left-32">
         <h1 className="w-2/5 leading-tight ">
           Shoes as unique as the human who wears it.
         </h1>
@@ -15,7 +15,7 @@ const HeroSection = () => {
           We provide best shoes for every budget as you want , discover new
           collections.
         </h2>
-        <h1 className="mt-7 mx-10 font-sans">$319.19</h1>
+        <h1 className="absolute left-12 font-sans">$320.19</h1>
       </div>
       <div className="flex flex-col items-center absolute w-2/5 left-[40%] top-20 ">
         <img className="" src={nikeShoe} alt="nikeShoe" />
