@@ -7,7 +7,7 @@ import nikeShoe from "../assets/nikeShoe.png";
 const HeroSection = () => {
   return (
     <section className="hero flex flex-row p-10 items-center">
-      <div className="relative left-32">
+      <div className="relative left-36">
         <h1 className="w-2/5 leading-tight ">
           Shoes as unique as the human who wears it.
         </h1>

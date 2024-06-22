@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="HeaderContainer flex p-7 mx-3 justify-between items-center w-full h-12 my-3">
       <Logo />
-      <nav className="flex gap-10">
+      <nav className="flex gap-12">
         <a href="#men">Men</a>
         <a href="#women">Women</a>
         <a href="#kids">Kids</a>
