@@ -15,14 +15,14 @@
   font-family: "FontFamily2";
   src: url("/path/to/font2.woff2") format("woff2"),
     url("/path/to/font2.woff") format("woff");
-  font-weight: normal;
   font-style: normal;
 }
 
 body {
   font-family: "FontFamily1", sans-serif;
+  font-weight: bold;
 }
 
 h1 {
-  font-family: "FontFamily2", sans-serif;
+  font-family: "FontFamily1", sans-serif;
 }
