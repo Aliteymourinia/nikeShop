@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <h1></h1>
       <Header />
+      <HeroSection />
     </div>
   );
 }

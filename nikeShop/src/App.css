@@ -2,4 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body button {
+  background-color: black;
+  color: white;
+  border-radius: 1.3em;
+  width: fit-content;
+  padding: 0.6em;
+  margin-inline: 1em;
+  transition: 0.3s all ease;
+}
+button:hover {
+  background-color: rgb(229, 229, 229);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: 0.3s all ease;
+  transform: scale(1.1);
+}
