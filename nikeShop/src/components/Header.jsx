@@ -9,10 +9,10 @@ const Header = () => {
     <div className="HeaderContainer flex p-7 mx-3 justify-between items-center w-full h-12 my-3">
       <Logo />
       <nav className="flex gap-12">
-        <a href="#men">Men</a>
-        <a href="#women">Women</a>
-        <a href="#kids">Kids</a>
-        <a href="#customize">Customize</a>
+        <a className="hover:underline underline-offset-4" href="#men">Men</a>
+        <a className="hover:underline underline-offset-4" href="#women">Women</a>
+        <a className="hover:underline underline-offset-4" href="#kids">Kids</a>
+        <a className="hover:underline underline-offset-4" href="#customize">Customize</a>
       </nav>
       <div className="iconContainer flex gap-4 mx-6">
         <a href="/search">
