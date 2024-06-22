@@ -3,21 +3,17 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 import Logo from "../assets/Nike.jsx";
 const Header = () => {
   return (
-    <AppBar
-      position="static"
-      className="w-fit -top-40 p-2 z-50 bg-white shadow-md"
-    >
-      <Toolbar>
-        <Typography variant="h" component="div" sx={{ flexGrow: 1 }}>
-          <Logo />
-          {/* Place your logo here */}
-        </Typography>
-        <nav className="flex gap-4 justify-around">
+    <AppBar className="fixed top-0 left-0 right-0">
+      <Toolbar className="flex justify-center gap-40">
+        <Logo />
+        {/* Place your logo here */}
+        <nav>
           {/* Example navigation links */}
           <a href="#men">Men</a>
           <a href="#women">Women</a>
           <a href="#kids">Kids</a>
           <a href="#customize">Customize</a>
+          
         </nav>
       </Toolbar>
     </AppBar>
