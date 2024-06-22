@@ -6,7 +6,7 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 const HeroSection = () => {
   return (
     <section className="hero">
-      <h1></h1>
+      <h1>Shoes as unique as the human who wears it.</h1>
       <h2></h2>
       <img src="" alt="" />
       <div className="buttonContainer flex">
