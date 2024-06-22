@@ -10,11 +10,11 @@ const HeroSection = () => {
       <h1 className="text-balance w-1/3">
         Shoes as unique as the human who wears it.
       </h1>
-      <h2 className="w-1/4">
+      <h2 className="w-1/4 text-sm">
         We provide best shoes for every budget as you want , discover new
         collections.
       </h2>
-      <h1>$319.19</h1>
+      <h1 className="mt-7">$319.19</h1>
       <img className="w-1/2" src={nikeShoe} alt="nikeShoe" />
       <div className="buttonContainer flex">
         <button className="px-6">
