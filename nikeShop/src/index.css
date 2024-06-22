@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* first font family */
+@font-face {
+  font-family: "FontFamily1";
+  src: url("/path/to/font1.woff2") format("woff2"),
+    url("/path/to/font1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*second font family */
+@font-face {
+  font-family: "FontFamily2";
+  src: url("/path/to/font2.woff2") format("woff2"),
+    url("/path/to/font2.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "FontFamily1", sans-serif;
+}
+
+h1 {
+  font-family: "FontFamily2", sans-serif;
+}
