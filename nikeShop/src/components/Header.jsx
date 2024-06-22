@@ -6,7 +6,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assets/Nike.jsx";
 const Header = () => {
   return (
-    <div className="HeaderContainer flex p-2 mx-3 justify-between items-center w-full h-12 my-3">
+    <div className="HeaderContainer flex p-7 mx-3 justify-between items-center w-full h-12 my-3">
       <Logo />
       <nav className="flex gap-10">
         <a href="#men">Men</a>
