@@ -2,7 +2,9 @@ import React from "react";
 import { AppBar, Card, Toolbar, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assets/Nike.jsx";
+import { light } from "@mui/material/styles/createPalette.js";
 const Header = () => {
   return (
     <AppBar className="fixed top-0 left-0 right-0">
@@ -16,7 +18,7 @@ const Header = () => {
           <a href="#kids">Kids</a>
           <a href="#customize">Customize</a>
           <FontAwesomeIcon icon={faSearch} />
-          <FontAwesomeIcon icon="fa-light fa-cart-shopping" />
+          <FontAwesomeIcon icon={faCartShopping} />
         </nav>
       </Toolbar>
     </AppBar>
