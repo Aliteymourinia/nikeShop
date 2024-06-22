@@ -7,7 +7,8 @@ const HeroSection = () => {
   return (
     <section className="hero">
       <h1>Shoes as unique as the human who wears it.</h1>
-      <h2></h2>
+      <h2>We provide best shoes for every budget , as you want</h2>
+      <h1>$319.19</h1>
       <img src="" alt="" />
       <div className="buttonContainer flex">
         <button className="px-6">
