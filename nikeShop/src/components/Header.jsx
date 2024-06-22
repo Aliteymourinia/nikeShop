@@ -13,7 +13,6 @@ const Header = () => {
           <a href="#women">Women</a>
           <a href="#kids">Kids</a>
           <a href="#customize">Customize</a>
-          
         </nav>
       </Toolbar>
     </AppBar>
