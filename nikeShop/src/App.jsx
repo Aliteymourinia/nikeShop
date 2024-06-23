@@ -7,16 +7,14 @@ import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import ProductListing from "./components/ProductListing";
-import productsData from "./productsData";
-
+import productsData, { products } from "./productsData";
+console.log(productsData);
 function App() {
-
-  
   return (
     <div className="App">
       <Header />
       <HeroSection />
-      <ProductListing products={productsData}/>;
+      <ProductListing products={productsData} />;
     </div>
   );
 }
