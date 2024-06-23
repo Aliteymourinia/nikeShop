@@ -7,15 +7,16 @@ import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import ProductListing from "./components/ProductListing";
-import productsData, { products } from "../src/productsData";
+import productsData from "./productsData";
 
 function App() {
- 
+
+  
   return (
     <div className="App">
       <Header />
       <HeroSection />
-      <ProductListing products={productsData} name={products.name} />;
+      <ProductListing products={productsData}/>;
     </div>
   );
 }
