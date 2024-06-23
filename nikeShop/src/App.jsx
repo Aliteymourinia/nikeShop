@@ -11,7 +11,6 @@ import productsData, { products } from "../src/productsData";
 
 function App() {
  
-
   return (
     <div className="App">
       <Header />
