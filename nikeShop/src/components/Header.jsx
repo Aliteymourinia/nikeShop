@@ -12,13 +12,22 @@ const Header = () => {
         <a className="hover:underline underline-offset-4" href="#men">
           Men
         </a>
-        <a className="hover:underline underline-offset-4" href="#women">
+        <a
+          className="hover:underline underline-offset-4 transition-shadow"
+          href="#women"
+        >
           Women
         </a>
-        <a className="hover:underline underline-offset-4" href="#kids">
+        <a
+          className="hover:underline underline-offset-4 transition-shadow"
+          href="#kids"
+        >
           Kids
         </a>
-        <a className="hover:underline underline-offset-4" href="#customize">
+        <a
+          className="hover:underline underline-offset-4 transition-shadow"
+          href="#customize"
+        >
           Customize
         </a>
       </nav>

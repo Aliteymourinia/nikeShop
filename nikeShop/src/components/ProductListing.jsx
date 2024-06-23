@@ -1,4 +1,3 @@
-// src/components/ProductListing.jsx
 import React from "react";
 
 const ProductListing = ({ products }) => {
