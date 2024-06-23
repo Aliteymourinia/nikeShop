@@ -1,17 +1,14 @@
 import React from "react";
-
 const ProductListing = ({ products }) => {
-  return (
-    <div className="product-listing">
-      {products.map((product) => (
-        <div key={product.id}>{
+  const productListItems = products.map((product) => {
+    return (
+      <div key={product.id}>
+        <h3>{product.name}</h3>
+        <p>{product.brand}</p>
+      </div>
+    );
+  });
 
-        
-          /* Render product details */
-          }</div>
-      ))}
-    </div>
-  );
+  return <div>{productListItems}</div>;
 };
-
 export default ProductListing;

@@ -3,22 +3,21 @@ import "./App.css";
 import Button from "@mui/material/Button";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
-import ProductListing from "./components/ProductListing";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
+import ProductListing from "./components/ProductListing";
+import productsData, { products } from "../src/productsData";
 
 function App() {
-  // Add more shoes as needed
+ 
 
   return (
     <div className="App">
-      <h1></h1>
       <Header />
       <HeroSection />
-      <ProductListing />
+      <ProductListing products={productsData} name={products.name} />;
     </div>
   );
 }
-
 export default App;

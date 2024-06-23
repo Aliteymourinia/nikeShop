@@ -1,4 +1,4 @@
-export const productData = [
+export const products = [
   {
     "nike-react-infinity-run-flyknit": {
       id: 1,
@@ -462,3 +462,4 @@ export const productData = [
     },
   },
 ];
+export default products;
