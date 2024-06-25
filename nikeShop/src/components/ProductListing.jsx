@@ -6,12 +6,14 @@ const ProductListing = ({ products }) => {
       {productsArray.map((product) => {
         return (
           <div
-            className="bg-gray-400 m-2 w-1/5 flex flex-col items-center"
+            className="w-1/5 flex flex-col items-center m-2"
             key={product.id}
           >
             <img className="w-full" src={product.imageURL} alt={product.name} />
-            <h3>{product.name}</h3>
-            <h2>{product.price}</h2>
+            <div>
+              <h3>{product.name}</h3>
+              <h2>{product.price}</h2>
+            </div>
           </div>
         );
       })}
