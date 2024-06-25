@@ -1,7 +1,12 @@
 import { Component, useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+  Link,
+} from "react-router-dom";
 import "./App.css";
-import Button from "@mui/material/Button";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ProductDetails from "./components/ProductDetails";
