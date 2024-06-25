@@ -9,36 +9,38 @@ const Header = () => {
     <div className="HeaderContainer flex p-7 mx-3 justify-between items-center w-full h-12 my-3">
       <Logo />
       <nav className="flex gap-12">
-        <a className="hover:underline underline-offset-4" href="#men">
-          Men
-        </a>
-        <a
-          className="hover:underline underline-offset-4 transition-shadow"
-          href="#women"
-        >
-          Women
-        </a>
-        <a
-          className="hover:underline underline-offset-4 transition-shadow"
-          href="#kids"
-        >
-          Kids
-        </a>
-        <a
-          className="hover:underline underline-offset-4 transition-shadow"
-          href="#customize"
-        >
-          Customize
-        </a>
+        <ul>
+          <li className="hover:underline underline-offset- hover:cursor-pointer " href="#men">
+            Men
+          </li>
+          <li
+            className="hover:underline underline-offset- hover:cursor-pointer transition-shadow"
+            href="#women"
+          >
+            Women
+          </li>
+          <li
+            className="hover:underline underline-offset- hover:cursor-pointer transition-shadow"
+            href="#kids"
+          >
+            Kids
+          </li>
+          <li
+            className="hover:underline underline-offset-4 transition-shadow hover:cursor-pointer"
+            href="#customize"
+          >
+            Customize
+          </li>
+        </ul>
+        <div className="iconContainer flex gap-4 mx-6 text-lg">
+          <a href="/search">
+            <FontAwesomeIcon icon={faSearch} />
+          </a>
+          <a href="/cart">
+            <FontAwesomeIcon icon={faCartShopping} />
+          </a>
+        </div>
       </nav>
-      <div className="iconContainer flex gap-4 mx-6 text-lg">
-        <a href="/search">
-          <FontAwesomeIcon icon={faSearch} />
-        </a>
-        <a href="/cart">
-          <FontAwesomeIcon icon={faCartShopping} />
-        </a>
-      </div>
     </div>
   );
 };
