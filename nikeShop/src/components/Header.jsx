@@ -6,11 +6,14 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assets/Nike.jsx";
 const Header = () => {
   return (
-    <div className="HeaderContainer flex p-7 mx-3 justify-between items-center w-full h-12 my-3">
+    <div className="HeaderContainer flex p-6 mx-3 justify-center items-center w-full h-12 my-3 relative">
       <Logo />
-      <nav className="flex gap-12">
-        <ul>
-          <li className="hover:underline underline-offset- hover:cursor-pointer " href="#men">
+      <nav className="flex-1 flex justify-center ">
+        <ul className="flex items-center gap-6">
+          <li
+            className="hover:underline underline-offset- hover:cursor-pointer"
+            href="#men"
+          >
             Men
           </li>
           <li
@@ -32,15 +35,15 @@ const Header = () => {
             Customize
           </li>
         </ul>
-        <div className="iconContainer flex gap-4 mx-6 text-lg">
-          <a href="/search">
-            <FontAwesomeIcon icon={faSearch} />
-          </a>
-          <a href="/cart">
-            <FontAwesomeIcon icon={faCartShopping} />
-          </a>
-        </div>
       </nav>
+      <div className="iconContainer flex gap-4 text-lg">
+        <a href="/search">
+          <FontAwesomeIcon icon={faSearch} />
+        </a>
+        <a href="/cart">
+          <FontAwesomeIcon icon={faCartShopping} />
+        </a>
+      </div>
     </div>
   );
 };
