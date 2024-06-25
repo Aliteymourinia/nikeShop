@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
-import productsData, { products } from "./productsData";
+import products from "./productsData";
 function App() {
   return (
     <Router>
