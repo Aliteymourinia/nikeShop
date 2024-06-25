@@ -18,21 +18,19 @@ import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <HeroSection />
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/products" element={<ProductListing />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route
-            path="/men"
-            element={<ProductListing products={products} />}
-          ></Route>
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <Header />
+      <HeroSection />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/products" element={<ProductListing />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route
+          path="/men"
+          element={<ProductListing products={products} />}
+        ></Route>
+      </Routes>
+    </div>
   );
 }
 export default App;
