@@ -69,9 +69,9 @@ export const products = {
     slug: "nike-mercurial-vapor-13-elite-fg",
     featured: 0,
   },
-  "nike-phantom-vision-elite-dynamic-fit-fg": {
+  "nike-phantom-vision-elite-dynamic": {
     id: 6,
-    name: "Nike Phantom Vision Elite Dynamic Fit FG",
+    name: "Nike Phantom Vision Elite",
     brand: "NIKE",
     gender: "WOMEN",
     category: "FOOTBALL",
@@ -85,7 +85,7 @@ export const products = {
   },
   "nike-phantom-venom-academy-fg": {
     id: 7,
-    name: "Nike Phantom Venom Academy FG",
+    name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
     category: "FOOTBALL",
@@ -99,7 +99,7 @@ export const products = {
   },
   "nike-mercurial-vapor-13-elite-tech-craft-fg": {
     id: 8,
-    name: "Nike Mercurial Vapor 13 Elite Tech Craft FG",
+    name: "Nike Mercurial Vapor 13 Elite Tech",
     brand: "NIKE",
     gender: "MEN",
     category: "FOOTBALL",
@@ -113,7 +113,7 @@ export const products = {
   },
   "nike-mercurial-superfly-7-pro-mds-fg": {
     id: 9,
-    name: "Nike Mercurial Superfly 7 Pro MDS FG",
+    name: "Nike Mercurial Superfly 7 Pro",
     brand: "NIKE",
     gender: "MEN",
     category: "FOOTBALL",
