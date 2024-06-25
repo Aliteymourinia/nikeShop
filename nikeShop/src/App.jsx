@@ -17,12 +17,10 @@ function App() {
       <div className="App">
         <Header />
         <HeroSection />
-        <ProductListing products={productsData} />;
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/products" element={<ProductListing />}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/cart" element={<Cart />}></Route>
         </Routes>
       </div>
     </Router>

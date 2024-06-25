@@ -12,21 +12,3 @@ const ProductListing = ({ products }) => {
   });
 };
 export default ProductListing;
-
-// export function Item(props) {
-//   return <div>
-//     {props.count}
-//     item</div>;
-// }
-
-// export function Items() {
-//   const data = [{name: "item1"}, {name: "item2"}, {name: "item3"}];
-//   return (
-//     <div>
-//       {data.map((product) => (
-//         <Item key={product} name={{product}} />
-//       ))}
-//       items
-//     </div>
-//   );
-// }
