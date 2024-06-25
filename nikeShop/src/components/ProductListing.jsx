@@ -9,7 +9,7 @@ const ProductListing = ({ products }) => {
             className="bg-gray-400 m-2 w-1/5 flex flex-col items-center"
             key={product.id}
           >
-            <img src={product.imageURL} alt={product.name} />
+            <img className="w-full" src={product.imageURL} alt={product.name} />
             <h3>{product.name}</h3>
             <h2>{product.price}</h2>
           </div>

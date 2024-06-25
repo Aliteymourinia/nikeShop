@@ -111,20 +111,7 @@ export const products = {
     slug: "nike-mercurial-vapor-13-elite-tech-craft-fg",
     featured: 0,
   },
-  "nike-mercurial-superfly-7-pro-mds-fg": {
-    id: 9,
-    name: "Nike Mercurial Superfly 7 Pro",
-    brand: "NIKE",
-    gender: "MEN",
-    category: "FOOTBALL",
-    price: 137,
-    is_in_inventory: true,
-    items_left: 3,
-    imageURL:
-      "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-a52a8aec-22dc-4982-961b-75c5f4c72805/mercurial-superfly-7-pro-mds-fg-firm-ground-soccer-cleat-mhcpdN.jpg",
-    slug: "nike-mercurial-superfly-7-pro-mds-fg",
-    featured: 0,
-  },
+
   "nike-air-force-1": {
     id: 10,
     name: "Nike Air Force 1",
