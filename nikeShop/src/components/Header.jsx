@@ -8,7 +8,11 @@ import Logo from "../assets/Nike.jsx";
 const Header = () => {
   return (
     <div className="HeaderContainer flex p-6 mx-3 justify-center items-center w-full h-12 my-3 relative">
-      <Logo />
+      <div className="logoContainer hover:cursor-pointer">
+        <Link to={"/"}>
+          <Logo />
+        </Link>
+      </div>
       <nav className="flex-1 flex justify-center ">
         <ul className="flex items-center gap-6">
           <li className="hover:underline underline-offset- hover:cursor-pointer">
@@ -25,13 +29,14 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="iconContainer flex gap-4 text-lg">
-        <a href="/search">
+      <div className="iconContainer text-lg hover:cursor-pointer flex gap-3 items-center">
+        <Link to="/search">
           <FontAwesomeIcon icon={faSearch} />
-        </a>
-        <a href="/cart">
+        </Link>
+
+        <Link to="/cart">
           <FontAwesomeIcon icon={faCartShopping} />
-        </a>
+        </Link>
       </div>
     </div>
   );
