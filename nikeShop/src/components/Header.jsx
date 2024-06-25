@@ -3,6 +3,7 @@ import { AppBar, Card, Toolbar, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import Logo from "../assets/Nike.jsx";
 const Header = () => {
   return (
@@ -10,29 +11,17 @@ const Header = () => {
       <Logo />
       <nav className="flex-1 flex justify-center ">
         <ul className="flex items-center gap-6">
-          <li
-            className="hover:underline underline-offset- hover:cursor-pointer"
-            href="#men"
-          >
-            Men
+          <li className="hover:underline underline-offset- hover:cursor-pointer">
+            <Link to="/men">Men</Link>
           </li>
-          <li
-            className="hover:underline underline-offset- hover:cursor-pointer transition-shadow"
-            href="#women"
-          >
-            Women
+          <li className="hover:underline underline-offset- hover:cursor-pointer transition-shadow">
+            <Link to="/women">Women</Link>
           </li>
-          <li
-            className="hover:underline underline-offset- hover:cursor-pointer transition-shadow"
-            href="#kids"
-          >
-            Kids
+          <li className="hover:underline underline-offset- hover:cursor-pointer transition-shadow">
+            <Link to="/kids">Kids</Link>
           </li>
-          <li
-            className="hover:underline underline-offset-4 transition-shadow hover:cursor-pointer"
-            href="#customize"
-          >
-            Customize
+          <li className="hover:underline underline-offset-4 transition-shadow hover:cursor-pointer">
+            <Link to="/customize">Customize</Link>
           </li>
         </ul>
       </nav>

@@ -9,16 +9,22 @@ import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
 import ProductListing from "./components/ProductListing";
 import productsData, { products } from "./productsData";
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <HeroSection />
-      <ProductListing products={productsData} />;
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <HeroSection />
+        <ProductListing products={productsData} />;
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/products" element={<About />}></Route>
+          <Route path="/about" element={<ProductListing />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 export default App;
