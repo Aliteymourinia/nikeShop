@@ -3,7 +3,7 @@ const ProductListing = ({ products }) => {
   const productsArray = Object.values(products);
   return (
     <div className="flex flex-wrap w-full justify-center">
-      {productsArray.map((product) => {
+      {productsArray.map((product) => {  
         return (
           <div
             className="w-1/5 flex flex-col items-center m-2 bg-gray-100"
