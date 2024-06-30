@@ -98,7 +98,7 @@ export const products = {
     featured: 0,
   },
   "nike-phantom-venom": {
-    id: 7,
+    id: 8,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -112,7 +112,7 @@ export const products = {
     featured: 0,
   },
   "nike-phantom-venom-fg": {
-    id: 7,
+    id: 9,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -126,7 +126,7 @@ export const products = {
     featured: 0,
   },
   "nike-phantom-venom-academy": {
-    id: 7,
+    id: 10,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -140,7 +140,7 @@ export const products = {
     featured: 0,
   },
   "nike-phantom-venom-academy-f": {
-    id: 7,
+    id: 11,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -154,7 +154,7 @@ export const products = {
     featured: 0,
   },
   "nike-phantom-vox-elite-fg": {
-    id: 7,
+    id: 12,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -162,12 +162,13 @@ export const products = {
     price: 210,
     is_in_inventory: true,
     items_left: 3,
-    imageURL:"https://image.goat.com/375/attachments/product_template_pictures/images/021/321/832/original/503571_00.png.png",
+    imageURL:
+      "https://image.goat.com/375/attachments/product_template_pictures/images/021/321/832/original/503571_00.png.png",
     slug: "nike-phantom-venom-academy-fg",
     featured: 0,
   },
   nike: {
-    id: 7,
+    id: 13,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -175,12 +176,13 @@ export const products = {
     price: 180,
     is_in_inventory: true,
     items_left: 3,
-    imageURL:"https://image.goat.com/750/attachments/product_template_pictures/images/021/562/245/original/480142_00.png.png",
+    imageURL:
+      "https://image.goat.com/750/attachments/product_template_pictures/images/021/562/245/original/480142_00.png.png",
     slug: "nike-phantom-venom-academy-fg",
     featured: 0,
   },
   nikeee: {
-    id: 7,
+    id: 14,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -188,12 +190,13 @@ export const products = {
     price: 119,
     is_in_inventory: true,
     items_left: 3,
-    imageURL:"https://image.goat.com/375/attachments/product_template_pictures/images/011/292/904/original/298048_00.png.png",
+    imageURL:
+      "https://image.goat.com/375/attachments/product_template_pictures/images/011/292/904/original/298048_00.png.png",
     slug: "nike-phantom-venom-academy-fg",
     featured: 0,
   },
   nik: {
-    id: 7,
+    id: 15,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
@@ -201,12 +204,13 @@ export const products = {
     price: 179,
     is_in_inventory: true,
     items_left: 3,
-    imageURL:"https://image.goat.com/attachments/product_template_pictures/images/020/249/043/original/494127_00.png.png",
+    imageURL:
+      "https://image.goat.com/attachments/product_template_pictures/images/020/249/043/original/494127_00.png.png",
     slug: "nike-phantom-venom-academy-fg",
     featured: 0,
   },
   nikee: {
-    id: 7,
+    id: 16,
     name: "Nike Phantom Venom Academy",
     brand: "NIKE",
     gender: "WOMEN",
