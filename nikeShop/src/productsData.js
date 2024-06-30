@@ -546,7 +546,7 @@ export const products = {
       is_in_inventory: true,
       items_left: 4,
       imageURL:
-        "https://images.vans.com/is/image/Vans/VN0A4BUU6BT-HERO?$583x583$",
+        "https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/99ca762cb9054caf82fbabc500fd146e_9366/NMD_R1_Shoes_Blue_FY9392_01_standard.jpg",
       slug: "vans-old-skool-kids",
       featured: 0,
     },
@@ -560,7 +560,7 @@ export const products = {
       is_in_inventory: true,
       items_left: 5,
       imageURL:
-        "https://images.vans.com/is/image/Vans/VN0A4BUU6BT-HERO?$583x583$",
+        "https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/12365dbc7c424288b7cdab4900dc7099_9366/Superstar_Shoes_White_FW3553_FW3553_01_standard.jpg",
       slug: "vans-slip-on-kids",
       featured: 0,
     },
