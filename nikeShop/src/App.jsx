@@ -20,6 +20,9 @@ function App() {
   const location = useLocation();
 
   const isMenPage = location.pathname === "/men";
+  const isWomenPage = location.pathname === "/women";
+  const isKidsPage = location.pathname === "/kids";
+  const isCustomizePage = location.pathname === "/customize";
 
   return (
     <div className="App">
