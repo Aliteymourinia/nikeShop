@@ -24,6 +24,12 @@ function App() {
   const isKidsPage = location.pathname === "/kids";
   const isCustomizePage = location.pathname === "/customize";
 
+  let currentProducts = {};
+  if (isMenPage) currentProducts = products.men;
+  else if (isWomenPage) currentProducts = products.women;
+  else if (isKidsPage) currentProducts = products.kids;
+  else if (isCustomizePage) currentProducts = products.customize;
+  
   return (
     <div className="App">
       <Header />
