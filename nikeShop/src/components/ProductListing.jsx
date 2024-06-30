@@ -12,8 +12,8 @@ const ProductListing = ({ products }) => {
           >
             <img className="w-full" src={product.imageURL} alt={product.name} />
             <div className="discription flex flex-col items-center bg-gray-300 w-full">
-              <h3>{}</h3>
-              <h2>{}</h2>
+              <h3>{product.name}</h3>
+              <h2>{product.price}</h2>
             </div>
           </div>
         );
