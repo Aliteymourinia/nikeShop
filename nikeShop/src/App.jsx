@@ -29,11 +29,13 @@ function App() {
   else if (isWomenPage) currentProducts = products.women;
   else if (isKidsPage) currentProducts = products.kids;
   else if (isCustomizePage) currentProducts = products.customize;
-  
+
   return (
     <div className="App">
       <Header />
-      {!isMenPage && <HeroSection />}
+      {!isMenPage && !isWomenPage && !isKidsPage && !isCustomizePage && (
+        <HeroSection />
+      )}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<ProductListing />}></Route>
@@ -42,6 +44,19 @@ function App() {
           path="/men"
           element={<ProductListing products={products} />}
         ></Route>
+
+        <Route
+          path="/women"
+          element={<ProductListing products={products.women} />}
+        />
+        <Route
+          path="/kids"
+          element={<ProductListing products={products.kids} />}
+        />
+        <Route
+          path="/customize"
+          element={<ProductListing products={products.customize} />}
+        />
       </Routes>
     </div>
   );
