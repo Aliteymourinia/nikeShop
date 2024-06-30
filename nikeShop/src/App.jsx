@@ -17,9 +17,14 @@ import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 function App() {
+  const location = useLocation();
+
+  const isMenPage = location.pathname === "/men";
+
   return (
     <div className="App">
       <Header />
+      {!isMenPage && <HeroSection />}
       <HeroSection />
       <Routes>
         <Route path="/" element={<Home />}></Route>
