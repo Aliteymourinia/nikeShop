@@ -5,13 +5,12 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Nike.jsx";
+
 const Header = () => {
   return (
     <div className="HeaderContainer flex p-6 mx-3 justify-center items-center w-full h-12 my-3 relative">
       <div className="logoContainer hover:cursor-pointer">
-        <Link to={"/"}>
-          <Logo />
-        </Link>
+        <Logo />
       </div>
       <nav className="flex-1 flex justify-center ">
         <ul className="flex items-center gap-6">

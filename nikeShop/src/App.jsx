@@ -25,7 +25,6 @@ function App() {
     <div className="App">
       <Header />
       {!isMenPage && <HeroSection />}
-      <HeroSection />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<ProductListing />}></Route>
