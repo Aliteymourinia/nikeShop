@@ -10,7 +10,9 @@ const Header = () => {
   return (
     <div className="HeaderContainer flex p-6 mx-3 justify-center items-center w-full h-12 my-3 relative">
       <div className="logoContainer hover:cursor-pointer">
-        <Logo />
+        <Link to={"/"}>
+          <Logo />
+        </Link>
       </div>
       <nav className="flex-1 flex justify-center ">
         <ul className="flex items-center gap-6">

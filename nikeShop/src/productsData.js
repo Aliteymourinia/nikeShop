@@ -227,6 +227,7 @@ export const products = {
   },
   women: {
     
+    
   },
 
   kids: {
@@ -403,10 +404,6 @@ export const products = {
       featured: 0,
     },
   },
-  women:{
-
-  },
-
   customize: {
     
   },
