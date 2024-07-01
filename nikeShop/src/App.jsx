@@ -25,12 +25,6 @@ function App() {
     location.pathname === "/kids" ||
     location.pathname === "/customize";
 
-  let currentProducts = {};
-  if (isProductPage) currentProducts = products.men;
-  else if (isProductPage) currentProducts = products.women;
-  else if (isProductPage) currentProducts = products.kids;
-  else if (isProductPage) currentProducts = products.customize;
-
   return (
     <div className="App">
       <Header />

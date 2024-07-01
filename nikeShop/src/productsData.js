@@ -247,7 +247,7 @@ export const products = {
     },
 
     "nike-joyride-dual-run-kids": {
-      id: 4,
+      id: 2,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -262,7 +262,7 @@ export const products = {
     },
 
     "nike-air-force-1-kidss": {
-      id: 1,
+      id: 3,
       name: "Nike Air Force 1",
       brand: "NIKE",
       gender: "KIDS",
@@ -292,7 +292,7 @@ export const products = {
     },
 
     "nike-joyride-dual-run-kid6": {
-      id: 4,
+      id: 5,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -306,7 +306,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid7": {
-      id: 4,
+      id: 6,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -320,7 +320,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid8": {
-      id: 4,
+      id: 7,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -334,7 +334,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid9": {
-      id: 4,
+      id: 8,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -348,7 +348,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid10": {
-      id: 4,
+      id: 9,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -362,7 +362,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid11": {
-      id: 4,
+      id: 10,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -376,7 +376,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid3": {
-      id: 4,
+      id: 11,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
@@ -390,7 +390,7 @@ export const products = {
       featured: 0,
     },
     "nike-joyride-dual-run-kid12": {
-      id: 4,
+      id: 12,
       name: "Nike Joyride Dual Run",
       brand: "NIKE",
       gender: "KIDS",
