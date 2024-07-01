@@ -7,11 +7,11 @@ const ProductListing = ({ products }) => {
       {productsArray.map((product) => {
         return (
           <div
-            className="w-1/5 flex flex-col items-center m-2 bg-gray-100 hover:cursor-pointer "
+            className="ProductCard w-1/5 flex flex-col items-center m-2 bg-gray-100 hover:cursor-pointer "
             key={product.id}
           >
             <img className="w-full" src={product.imageURL} alt={product.name} />
-            <div className="discription flex flex-col  w-full bg-white p-2">
+            <div className="ProductDetail flex flex-col  w-full bg-white p-2">
               <h3 className="font-bold">{product.name}</h3>
               <h2 className="text-gray-500 font-sans">{product.category}</h2>
               <h2 className="text-gray-500 font-sans">{product.gender}</h2>
