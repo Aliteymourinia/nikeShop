@@ -18,7 +18,7 @@ import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 function App() {
   const location = useLocation();
-  
+
   const isProductPage =
     location.pathname === "/men" ||
     location.pathname === "/women" ||
@@ -26,13 +26,15 @@ function App() {
     location.pathname === "/customize";
 
   let currentProducts = {};
-  if (isMenPage) currentProducts = products.men;
-  else if (isWomenPage) currentProducts = products.women;
-  else if (isKidsPage) currentProducts = products.kids;
-  else if (isCustomizePage) currentProducts = products.customize;
+  if (isProductPage) currentProducts = products.men;
+  else if (isProductPage) currentProducts = products.women;
+  else if (isProductPage) currentProducts = products.kids;
+  else if (isProductPage) currentProducts = products.customize;
 
   return (
     <div className="App">
+      <Header />
+      {!isProductPage}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<ProductListing />}></Route>
