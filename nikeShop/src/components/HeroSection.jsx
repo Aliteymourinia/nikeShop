@@ -4,6 +4,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import {} from "@fortawesome/free-solid-svg-icons";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import nikeShoe from "../assets/nikeShoe.png";
+
 const HeroSection = () => {
   return (
     <section className="hero flex flex-row p-10 items-center">
@@ -22,14 +23,13 @@ const HeroSection = () => {
       <div className="flex flex-col items-center absolute w-2/5 left-[40%] top-20 ">
         <img className="" src={nikeShoe} alt="nikeShoe" />
         <div className="buttonContainer flex">
-          <button className="pr-3 absolute top-[65%] left-[63%]">
+          <button className="px-7 absolute top-[65%] left-[63%]">
             Shop now
-            <ArrowCircleRightIcon className="ml-4" />
           </button>
         </div>
       </div>
     </section>
-  );
+  ); //add link to shop now btn for going to men products!
 };
 
 export default HeroSection;
