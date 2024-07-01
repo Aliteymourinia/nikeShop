@@ -128,7 +128,7 @@ export const products = {
     },
     "nike-phantom-venom-academy": {
       id: 10,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Air Force ",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -142,7 +142,7 @@ export const products = {
     },
     "nike-phantom-venom-academy-f": {
       id: 11,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Air JF",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -156,7 +156,7 @@ export const products = {
     },
     "nike-phantom-vox-elite-fg": {
       id: 12,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Jelly Run",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
