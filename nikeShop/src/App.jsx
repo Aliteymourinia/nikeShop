@@ -32,17 +32,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      {!isMenPage && !isWomenPage && !isKidsPage && !isCustomizePage && (
-        <HeroSection />
-      )}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<ProductListing />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route
           path="/men"
-          element={<ProductListing products={products.men} />}
+        element={<ProductListing products={products.men} />}
         ></Route>
 
         <Route
@@ -58,7 +54,6 @@ function App() {
           element={<ProductListing products={products.customize} />}
         />
       </Routes>
-      <Footer />
     </div>
   );
 }
