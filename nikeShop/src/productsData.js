@@ -30,7 +30,7 @@ export const products = {
     },
     "nike-air-zoom-pegasus-37": {
       id: 3,
-      name: "Nike Air Zoom Pegasus 37",
+      name: "Nike Air Zoom Pegasus",
       brand: "NIKE",
       gender: "MEN",
       category: "RUNNING",
@@ -58,7 +58,7 @@ export const products = {
     },
     "nike-mercurial-vapor-13-elite-fg": {
       id: 5,
-      name: "Nike Mercurial Vapor 13 Elite",
+      name: "Nike Mercurial Vapor Elite",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -170,7 +170,7 @@ export const products = {
     },
     nike: {
       id: 13,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Phantom France",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -184,7 +184,7 @@ export const products = {
     },
     nikeee: {
       id: 14,
-      name: "Nike Phantom Venom Academy",
+      name: "Addidas Line Run",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -198,7 +198,7 @@ export const products = {
     },
     nik: {
       id: 15,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Air Capsule",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -212,7 +212,7 @@ export const products = {
     },
     nikee: {
       id: 16,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Phantom France Light",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
