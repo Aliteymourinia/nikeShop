@@ -41,10 +41,7 @@ const Footer = () => {
         </FooterLink>
       </FooterLinks>
       <SocialMediaIcons>
-        <FaFacebookF />
-        <FaInstagram />
-        <FaTwitter />
-        <FaYoutube />
+      
       </SocialMediaIcons>
     </FooterContainer>
   );
