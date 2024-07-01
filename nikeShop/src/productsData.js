@@ -58,7 +58,7 @@ export const products = {
     },
     "nike-mercurial-vapor-13-elite-fg": {
       id: 5,
-      name: "Nike Mercurial Vapor 13 Elite FG",
+      name: "Nike Mercurial Vapor 13 Elite",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -86,7 +86,7 @@ export const products = {
     },
     "nike-phantom-venom-academy-fg": {
       id: 7,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Phantom Venom",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -100,7 +100,7 @@ export const products = {
     },
     "nike-phantom-venom": {
       id: 8,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Phantom Academy",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",
@@ -114,7 +114,7 @@ export const products = {
     },
     "nike-phantom-venom-fg": {
       id: 9,
-      name: "Nike Phantom Venom Academy",
+      name: "Nike Phantom FG",
       brand: "NIKE",
       gender: "MEN",
       category: "FOOTBALL",

@@ -18,13 +18,13 @@ import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 function App() {
   const location = useLocation();
-
+  
   const isProductPage =
-    location.pathname === "/men" ||
-    location.pathname === "/women" ||
-    location.pathname === "/kids" ||
-    location.pathname === "/customize";
-
+  location.pathname === "/men" ||
+  location.pathname === "/women" ||
+  location.pathname === "/kids" ||
+  location.pathname === "/customize";
+  
   return (
     <div className="App">
       <Header />
