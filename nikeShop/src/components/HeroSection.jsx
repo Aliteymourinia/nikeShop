@@ -11,7 +11,7 @@ const HeroSection = () => {
         <h1 className="w-2/5 leading-tight text-5xl font-bold font-sans">
           Shoes as unique as the human who wears it.
         </h1>
-        <h2 className="w-80 mx-1 text-sm my-2">
+        <h2 className="w-80 mx-1 text-sm my-2 font-sans text-gray-600">
           We provide best shoes for every budget as you want , discover new
           collections.
         </h2>
