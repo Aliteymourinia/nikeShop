@@ -1,5 +1,5 @@
 import React from "react";
-import Man1 from "../assets/Man1.jpg";
+import Man11 from "../assets/Man11.jpg";
 import BasketballShoe from "../assets/BasketballShoe.jpg";
 import WhiteShoe1 from "../assets/WhiteShoe1.png";
 import GreenShoe from "../assets/GreenShoe.jpg";
@@ -11,8 +11,8 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover object-[100%,100%] scale-125"
-              src={Man1}
+              className="w-full h-full object-cover object-[100%,90%]"
+              src={Man11}
               alt=""
             />
           </div>
