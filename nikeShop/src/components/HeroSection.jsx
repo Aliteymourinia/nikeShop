@@ -3,7 +3,7 @@ import { Button, Select } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import {} from "@fortawesome/free-solid-svg-icons";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
-import Link from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import nikeShoe from "../assets/nikeShoe.png";
 
 const HeroSection = () => {
@@ -25,7 +25,7 @@ const HeroSection = () => {
         <img className="" src={nikeShoe} alt="nikeShoe" />
         <div className="buttonContainer flex">
           <button className="px-7 absolute top-[65%] left-[63%]">
-            <Link ></Link>
+            <Link></Link>
             Shop now
           </button>
         </div>
