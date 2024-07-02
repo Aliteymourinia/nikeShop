@@ -32,9 +32,9 @@ function Main() {
             src={GreenShoe}
             alt="GreenShoe"
           />
-          <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
-            <h2>Trending</h2>
-            <h1>Nike Dunk Low Green</h1>
+          <div className="absolute flex flex-col gap-1 bottom-0 left-1/4 transform -translate-x-1/2">
+            <h2 className="text-white text-lg">Trending</h2>
+            <h1 className="text-white text-2xl mb-2">Nike Dunk Low Green</h1>
             <span>
               <SecondaryButton />
             </span>
@@ -50,8 +50,8 @@ function Main() {
             alt="AirColor"
           />
           <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
-            <h2>Trending</h2>
-            <h1>Classic Black and White</h1>
+            <h2 className="text-white text-lg">Trending</h2>
+            <h1 className="text-white text-2xl mb-2">Classic Black and White</h1>
             <span>
               <SecondaryButton />
             </span>
@@ -65,8 +65,8 @@ function Main() {
             alt="AirGreen"
           />
           <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
-            <h2>Trending</h2>
-            <h1>Classic Black and White</h1>
+            <h2 className="text-white text-lg">Trending</h2>
+            <h1 className="text-white text-2xl mb-2">Classic Black and White</h1>
             <span>
               <SecondaryButton />
             </span>
