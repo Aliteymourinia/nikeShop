@@ -6,18 +6,24 @@ import gg from "../assets/gg.jpg";
 // import NikeGif from "../assets/NikeGif.jpg";
 function Main() {
   return (
-    <div className="my-32 flex flex-col">
+    <div className="my-40 flex flex-col">
       <section className="flex ">
         <a href="">
-          <img src={Man1} alt="Man" />
+          
         </a>
         <a href="">
-          <img src={Man2} alt="Man2" />
+        
         </a>
       </section>
       <section className="flex">
         <a href="">
-          <img src={WhiteShoe1} alt="WhiteShoe" />
+          <div className="image-container">
+            <img
+              className="w-full h-full object-cover object-[50%,70%]"
+              src={WhiteShoe1}
+              alt="WhiteShoe"
+            />
+          </div>
         </a>
         <a href="">
           <div className="image-container">
