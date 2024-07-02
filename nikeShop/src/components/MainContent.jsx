@@ -10,14 +10,18 @@ function Main() {
       <section className="flex ">
         <a href="">
           <div className="image-container">
-            <img className="w-full h-full object-cover" src={Man1} alt="" />
+            <img
+              className="w-full h-full object-cover object-[50%,30%]"
+              src={Man1}
+              alt=""
+            />
           </div>
         </a>
         <a href="">
           <div className="image-container">
             <img
               className="w-full h-full object-cover object-[50%,100%]"
-              src={BasketballShoe}
+              src={GreenShoe}
               alt=""
             />
           </div>
@@ -37,7 +41,7 @@ function Main() {
           <div className="image-container">
             <img
               className="w-full h-full object-cover object-[50%,100%]"
-              src={GreenShoe}
+              src={BasketballShoe}
               alt="GreenShoee"
             />
           </div>
