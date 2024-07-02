@@ -16,6 +16,8 @@ function Main() {
             alt="Blackshoe"
           />
           <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          <h2>Trending</h2>
+          <h1>Classic Black and White</h1>
           
             <SecondaryButton />
           </div>
@@ -28,6 +30,8 @@ function Main() {
             alt="GreenShoe"
           />
           <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          <h2>Trending</h2>
+          <h1>Classic Black and White</h1>
             <SecondaryButton />
           </div>
         </a>
@@ -41,6 +45,8 @@ function Main() {
             alt="AirColor"
           />
           <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          <h2>Trending</h2>
+          <h1>Classic Black and White</h1>
             <SecondaryButton />
           </div>
         </a>
@@ -52,6 +58,8 @@ function Main() {
             alt="AirGreen"
           />
           <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          <h2>Trending</h2>
+          <h1>Classic Black and White</h1>
             <SecondaryButton />
           </div>
         </a>
