@@ -10,12 +10,12 @@ function Main() {
       <section className="flex ">
         <a href="">
           <div>
-            <img src="" alt="" />
+            <img src={} alt="" />
           </div>
         </a>
         <a href="">
           <div>
-            <img src="" alt="" />
+            <img src={} alt="" />
           </div>
         </a>
       </section>
