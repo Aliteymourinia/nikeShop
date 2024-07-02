@@ -1,21 +1,25 @@
 import React from "react";
-import bas from "../assets/bas.jpg";
+import Man1 from "../assets/Man1.jpg";
+import BasketballShoe from "../assets/BasketballShoe.jpg";
 import WhiteShoe1 from "../assets/WhiteShoe1.png";
-import greenShoe from "../assets/greenShoe.png";
-import { green } from "@mui/material/colors";
+import GreenShoe from "../assets/GreenShoe.jpg";
 // import NikeGif from "../assets/NikeGif.jpg";
 function Main() {
   return (
     <div className="my-40 flex flex-col">
       <section className="flex ">
         <a href="">
-          <div>
-            <img src={} alt="" />
+          <div className="image-container">
+            <img className="w-full h-full object-cover" src={Man1} alt="" />
           </div>
         </a>
         <a href="">
-          <div>
-            <img src={} alt="" />
+          <div className="image-container">
+            <img
+              className="w-full h-full object-cover object-[50%,100%]"
+              src={BasketballShoe}
+              alt=""
+            />
           </div>
         </a>
       </section>
@@ -32,8 +36,8 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover"
-              src={greenShoe}
+              className="w-full h-full object-cover object-[50%,100%]"
+              src={GreenShoe}
               alt="GreenShoee"
             />
           </div>
