@@ -20,7 +20,13 @@ function Main() {
           <img src={WhiteShoe1} alt="WhiteShoe" />
         </a>
         <a href="">
-          <img className="image-container" src={gg} alt="GreenShoee" />
+          <div className="image-container">
+            <img
+              className="w-full h-full object-cover object-bottom"
+              src={gg}
+              alt="GreenShoee"
+            />
+          </div>
         </a>
       </section>
     </div>
