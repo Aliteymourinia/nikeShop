@@ -17,7 +17,7 @@ const HeroSection = () => {
           We provide best shoes for every budget as you want , discover new
           collections.
         </h2>
-        <h1 className="absolute left-16 top-60 font-sans text-5xl font-bold">
+        <h1 className="absolute left-16 top-64 font-sans text-5xl font-bold">
           $320.19
         </h1>
       </div>
