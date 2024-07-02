@@ -18,6 +18,12 @@ button:hover {
   transition: 0.3s all ease;
   transform: scale(1.1);
 }
-Logo{
+Logo {
   background: red;
+}
+.image-container {
+  width: 960px;
+  height: 540px;
+  object-fit: cover;
+
 }

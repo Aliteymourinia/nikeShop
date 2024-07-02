@@ -16,7 +16,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
-import Main from "./components/Main";
+import Main from "./components/MainContent";
 function App() {
   const location = useLocation();
 
