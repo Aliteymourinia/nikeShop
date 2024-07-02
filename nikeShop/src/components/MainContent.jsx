@@ -1,7 +1,7 @@
 import React from "react";
-import Man11 from "../assets/Man11.jpg";
+import BlackShoe from "../assets/BlackShoe.jpg";
 import BasketballShoe from "../assets/BasketballShoe.jpg";
-import WhiteShoe from '../assets/WhiteShoe1.png'
+import WhiteShoe from "../assets/WhiteShoe1.png";
 import GreenShoe from "../assets/GreenShoe.jpg";
 // import NikeGif from "../assets/NikeGif.jpg";
 function Main() {
@@ -12,8 +12,8 @@ function Main() {
           <div className="image-container">
             <img
               className="w-full h-full object-cover object-[100%,90%]"
-              src={Man11}
-              alt=""
+              src={BlackShoe}
+              alt="Blackshoe"
             />
           </div>
         </a>
@@ -22,7 +22,7 @@ function Main() {
             <img
               className="w-full h-full object-cover object-[50%,100%]"
               src={GreenShoe}
-              alt=""
+              alt="GreenShoe"
             />
           </div>
         </a>
@@ -40,7 +40,7 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover object-[50%,100%]"
+              className="w-full h-full object-cover object-[50%,100%] scale-110"
               src={BasketballShoe}
               alt="GreenShoee"
             />
