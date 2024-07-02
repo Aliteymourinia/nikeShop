@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section className="hero flex flex-row p-10 items-center">
       <div className="relative left-36">
-        <h1 className="w-2/5 leading-tight text-5xl font-bold font-sans">
+        <h1 className="w-2/5 leading-tight text-5xl font-bold heroSectionText ">
           Shoes as unique as the human who wears it.
         </h1>
         <h2 className="w-80 mx-1 text-sm my-2 font-sans text-gray-600">
