@@ -1,7 +1,7 @@
 import React from "react";
 import Man11 from "../assets/Man11.jpg";
 import BasketballShoe from "../assets/BasketballShoe.jpg";
-import WhiteShoe1 from "../assets/WhiteShoe1.png";
+import WhiteShoe from '../assets/WhiteShoe1.png'
 import GreenShoe from "../assets/GreenShoe.jpg";
 // import NikeGif from "../assets/NikeGif.jpg";
 function Main() {
@@ -31,8 +31,8 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover object-[50%,70%]"
-              src={WhiteShoe1}
+              className="w-full h-full object-cover object-[50%,60%]"
+              src={WhiteShoe}
               alt="WhiteShoe"
             />
           </div>
