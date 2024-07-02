@@ -15,7 +15,8 @@ function Main() {
             src={BlackShoe}
             alt="Blackshoe"
           />
-          <div className="absolute  bottom-0 left-1/2 transform -translate-x-1/2 mb-4">
+          <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          
             <SecondaryButton />
           </div>
         </a>
@@ -26,7 +27,7 @@ function Main() {
             src={GreenShoe}
             alt="GreenShoe"
           />
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-4">
+          <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
             <SecondaryButton />
           </div>
         </a>
@@ -39,7 +40,7 @@ function Main() {
             src={AirColor}
             alt="AirColor"
           />
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-4">
+          <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
             <SecondaryButton />
           </div>
         </a>
@@ -50,7 +51,7 @@ function Main() {
             src={AirGreen}
             alt="AirGreen"
           />
-          <div className="absolute  bottom-0 left-1/2 transform -translate-x-1/2 mb-4">
+          <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
             <SecondaryButton />
           </div>
         </a>
