@@ -9,7 +9,10 @@ function Main() {
   return (
     <div className="my-40 flex flex-col">
       <section className="flex ">
-        <a href="" className=" relative image-container">
+        <a
+          href="https://www.nike.com/fr/t/chaussure-air-jordan-1-mid-pour-8KzLMC/DV0991-101?nikegos=true"
+          className=" relative image-container"
+        >
           <img
             className="w-full h-full object-cover object-[100%,90%]"
             src={BlackShoe}
@@ -65,7 +68,7 @@ function Main() {
           <div className="absolute bottom-12 flex flex-col gap-1 left-1/4 transform -translate-x-1/2 mb-4">
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl mb-2">
-            Air Jordan high Seafoam
+              Air Jordan high Seafoam
             </h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4">
               <SecondaryButton />
