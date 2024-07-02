@@ -11,7 +11,7 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover object-[50%,30%]"
+              className="w-full h-full object-cover object-[100%,100%] scale-125"
               src={Man1}
               alt=""
             />
