@@ -47,12 +47,12 @@ function Main() {
             src={AirColor}
             alt="AirColor"
           />
-          <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          <div className="absolute bottom-14 flex flex-col left-1/4 transform -translate-x-1/2 mb-4">
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl mb-2">
               Classic Black and White
             </h1>
-            <span className="absolute">
+            <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4">
               <SecondaryButton />
             </span>
           </div>
@@ -64,12 +64,12 @@ function Main() {
             src={AirGreen}
             alt="AirGreen"
           />
-          <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
+          <div className="absolute bottom-0 flex flex-col g left-1/4 transform -translate-x-1/2 mb-4">
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl mb-2">
               Classic Black and White
             </h1>
-            <span className="absolute">
+            <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4">
               <SecondaryButton />
             </span>
           </div>
