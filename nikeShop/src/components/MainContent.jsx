@@ -31,7 +31,7 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover object-[50%,60%]"
+              className="w-full h-full object-cover object-[50%,70%]"
               src={WhiteShoe}
               alt="WhiteShoe"
             />
