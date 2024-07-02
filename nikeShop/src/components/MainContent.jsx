@@ -35,7 +35,7 @@ function Main() {
           <div className="absolute flex flex-col gap-1 bottom-0 left-1/4 transform -translate-x-1/2">
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl mb-2">Nike Dunk Low Green</h1>
-            <span>
+            <span className="absolute">
               <SecondaryButton />
             </span>
           </div>
@@ -51,8 +51,10 @@ function Main() {
           />
           <div className="absolute bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
             <h2 className="text-white text-lg">Trending</h2>
-            <h1 className="text-white text-2xl mb-2">Classic Black and White</h1>
-            <span>
+            <h1 className="text-white text-2xl mb-2">
+              Classic Black and White
+            </h1>
+            <span className="absolute">
               <SecondaryButton />
             </span>
           </div>
@@ -66,8 +68,10 @@ function Main() {
           />
           <div className="absolute  bottom-0 left-1/4 transform -translate-x-1/2 mb-4">
             <h2 className="text-white text-lg">Trending</h2>
-            <h1 className="text-white text-2xl mb-2">Classic Black and White</h1>
-            <span>
+            <h1 className="text-white text-2xl mb-2">
+              Classic Black and White
+            </h1>
+            <span className="absolute">
               <SecondaryButton />
             </span>
           </div>
