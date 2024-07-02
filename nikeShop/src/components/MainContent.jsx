@@ -31,7 +31,7 @@ function Main() {
         <a href="">
           <div className="image-container">
             <img
-              className="w-full h-full object-cover object-[50%,70%]"
+              className="w-full h-full object-cover object-[50%,100%]"
               src={AirColor}
               alt="AirColor"
             />
