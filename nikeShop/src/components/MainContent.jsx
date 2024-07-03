@@ -85,16 +85,20 @@ function Main() {
         Discover The New Products By Categories
       </h3>
 
-      <section>
-        <div>
-          <a className="" href="">
-            <img src="" alt="" />
-          </a>
-          <h2></h2>
-          <span>
-            <SecondaryButton />
-          </span>
-        </div>
+      <section className="flex">
+        <a href="" className="relative image-container-two">
+          <img
+            className="w-full h-full object-cover object-[50%,1%]"
+            src={Hoodie}
+            alt="Clothes"
+          />
+          <div className="absolute flex flex-col gap-1 bottom-[6em] left-1/4 transform -translate-x-1/2">
+            <h1 className="text-white text-2xl mb-2 ">Clothes</h1>
+            <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
+              <SecondaryButton />
+            </span>
+          </div>
+        </a>
       </section>
     </div>
   );
