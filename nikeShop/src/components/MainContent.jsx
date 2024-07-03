@@ -24,7 +24,7 @@ function MainContent() {
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl">Classic Black and White</h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4">
-              <SecondaryButton />
+              <SecondaryButton text="Shop" />
             </span>
           </div>
         </a>
@@ -39,7 +39,7 @@ function MainContent() {
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl mb-2 ">Nike Dunk Low Green</h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
-              <SecondaryButton />
+              <SecondaryButton text="Shop" />
             </span>
           </div>
         </a>
@@ -55,7 +55,7 @@ function MainContent() {
             <h2 className="text-white text-lg">Trending</h2>
             <h1 className="text-white text-2xl mb-2">Nike Dunk Low Abstract</h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4">
-              <SecondaryButton />
+              <SecondaryButton text="Shop" />
             </span>
           </div>
         </a>
@@ -72,7 +72,7 @@ function MainContent() {
               Air Jordan high Seafoam
             </h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4">
-              <SecondaryButton />
+              <SecondaryButton text="Shop" />
             </span>
           </div>
         </a>
