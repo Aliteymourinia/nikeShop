@@ -77,13 +77,13 @@ function MainContent() {
           </div>
         </a>
       </section>
-      <h2 className="text-3xl flex justify-center mt-20">
+      <h2 className="text-3xl flex justify-center mt-20 ">
         Running isn't just Running
       </h2>
       <div>
         <VideoComponent />
       </div>
-      <h3 className="text-3xl flex justify-center mt- mb-20 ">
+      <h3 className="text-3xl flex justify-center mb-20 ">
         Discover The New Products By Categories
       </h3>
       <section className="flex justify-center gap-3">
