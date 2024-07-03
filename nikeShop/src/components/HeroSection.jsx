@@ -24,7 +24,7 @@ const HeroSection = () => {
       </div>
       <div className="flex flex-col items-center absolute w-2/5 left-[40%] top-20 ">
         <img className="" src={nikeShoe} alt="nikeShoe" />
-        <div className="buttonContainer flex">
+        <div className="buttonContainer absolute top-[65%] left-[63%]">
           <PrimaryButton text="Shop Now" />
           <Link></Link>
         </div>
