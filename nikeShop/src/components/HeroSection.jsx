@@ -5,6 +5,7 @@ import {} from "@fortawesome/free-solid-svg-icons";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import nikeShoe from "../assets/nikeShoe.png";
+import PrimaryButton from "./PrimaryButton";
 
 const HeroSection = () => {
   return (
@@ -24,10 +25,8 @@ const HeroSection = () => {
       <div className="flex flex-col items-center absolute w-2/5 left-[40%] top-20 ">
         <img className="" src={nikeShoe} alt="nikeShoe" />
         <div className="buttonContainer flex">
-          <button className="px-7 absolute top-[65%] left-[63%] active:scale-90">
-            <Link></Link>
-            Shop now
-          </button>
+          <PrimaryButton />
+          <Link></Link>
         </div>
       </div>
     </section>
@@ -35,3 +34,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+// {/* <button className="px-7 absolute top-[65%] left-[63%] active:scale-90"></button> */}

@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
 
-export default function PrimaryButton() {
+const PrimaryButton = (PrimaryButton) => {
   return (
-    <div>PrimaryButton</div>
-  )
-}
+    <div className="">
+      <button className=" absolute top-[65%] left-[63%] active:scale-90 px-4 ">
+        Primary Button
+      </button>
+    </div>
+  );
+};
+
+export default PrimaryButton;
