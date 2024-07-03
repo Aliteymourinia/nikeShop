@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/index.css";
-
+import "./styles/fonts.css";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
