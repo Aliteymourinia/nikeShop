@@ -1,5 +1,5 @@
 import React from "react";
-import NikeRunningVid from "../assets/NikeRunningVid.mp4";
+import NikeRunningVid from "../assets/NikeRunningClub.mp4"
 const VideoComponent = () => {
   return (
     <div className=" video-container my-20 flex justify-center items-center">
