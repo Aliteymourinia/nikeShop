@@ -9,7 +9,7 @@ import Hoodie from "../assets/Hoodie.jpg";
 
 function MainContent() {
   return (
-    <div className="my-40 flex flex-col">
+      <div className="my-40 flex flex-col" >
       <section className="flex ">
         <a
           href="https://www.nike.com/fr/t/chaussure-air-jordan-1-mid-pour-8KzLMC/DV0991-101?nikegos=true"
@@ -44,7 +44,6 @@ function MainContent() {
           </div>
         </a>
       </section>
-
       <section className="flex">
         <a href="" className="relative image-container">
           <img
@@ -78,15 +77,13 @@ function MainContent() {
           </div>
         </a>
       </section>
-      <h3 className="text-3xl flex justify-center mt-20">Nike Run Club</h3>
+      <h3  className="text-3xl flex justify-center mt-20" >Nike Run Club</h3>
       <div className="">
         <VideoComponent />
       </div>
-
       <h3 className="text-3xl flex justify-center mt- mb-20 ">
         Discover The New Products By Categories
       </h3>
-
       <section className="flex justify-center gap-3">
         <a href="" className="relative image-container-two">
           <img
@@ -94,7 +91,7 @@ function MainContent() {
             src={Hoodie}
             alt="Clothes"
           />
-          <div className="absolute flex flex-col gap-1 bottom-[6em] left-1/4 transform -translate-x-1/2">
+          <div  className="absolute flex flex-col gap-1 bottom-[6em] left-1/4 transform -translate-x-1/2" >
             <h1 className="text-white text-2xl mb-2 ">Clothes</h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
               <SecondaryButton />
