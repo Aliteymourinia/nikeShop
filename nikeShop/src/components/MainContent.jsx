@@ -4,7 +4,7 @@ import AirColor from "../assets/AirColor.png";
 import AirGreen from "../assets/AirGreen.png";
 import GreenShoe from "../assets/GreenShoe.jpg";
 import SecondaryButton from "../components/SecondaryButton";
-// import NikeGif from "../assets/NikeGif.jpg";
+import NikeGif from "../assets/NikeGif.gif";
 function Main() {
   return (
     <div className="my-40 flex flex-col">
@@ -76,6 +76,9 @@ function Main() {
           </div>
         </a>
       </section>
+      <div className="">
+        <img src={NikeGif} alt="" />
+      </div>
     </div>
   );
 }
