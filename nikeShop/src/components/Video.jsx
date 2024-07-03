@@ -2,15 +2,14 @@ import React from "react";
 import NikeRunningVid from "../assets/NikeRunningVid.mp4";
 const VideoComponent = () => {
   return (
-    <div className=" video-container my-20 flex justify-center">
+    <div className=" video-container my-20 flex justify-center items-center">
       <video
-        className="object-cover"
         src={NikeRunningVid}
         autoPlay
         muted
         loop
         playsInline
-        controls
+        className="w-full h-full object-cover"
       ></video>
     </div>
   );
