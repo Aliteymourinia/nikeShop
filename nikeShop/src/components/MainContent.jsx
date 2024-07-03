@@ -7,7 +7,7 @@ import SecondaryButton from "../components/SecondaryButton";
 import VideoComponent from "../components/Video";
 import Hoodie from "../assets/Hoodie.jpg";
 
-function Main() {
+function MainContent() {
   return (
     <div className="my-40 flex flex-col">
       <section className="flex ">
@@ -78,9 +78,7 @@ function Main() {
           </div>
         </a>
       </section>
-      <h3 className="text-3xl flex justify-center mt-20">
-        Nike Run Club
-      </h3>
+      <h3 className="text-3xl flex justify-center mt-20">Nike Run Club</h3>
       <div className="">
         <VideoComponent />
       </div>
@@ -134,4 +132,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default MainContent;
