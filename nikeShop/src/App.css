@@ -26,3 +26,8 @@ Logo {
   height: 540px;
   overflow: hidden;
 }
+.image-container-two {
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+}
