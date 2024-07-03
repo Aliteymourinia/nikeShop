@@ -5,6 +5,7 @@ import AirGreen from "../assets/AirGreen.png";
 import GreenShoe from "../assets/GreenShoe.jpg";
 import SecondaryButton from "../components/SecondaryButton";
 import NikeGif from "../assets/NikeGif.gif";
+import Hoodie from "../assets/Hoodie.jpg";
 function Main() {
   return (
     <div className="my-40 flex flex-col">
@@ -76,17 +77,23 @@ function Main() {
           </div>
         </a>
       </section>
+
       <div className="">
         <img className="" src={NikeGif} alt="" />
       </div>
       <h3 className="text-3xl flex justify-center mt-20 ">
         Discover The New Products By Categories
       </h3>
+
       <section>
         <div>
           <a className="" href="">
             <img src="" alt="" />
           </a>
+          <h2></h2>
+          <span>
+            <SecondaryButton />
+          </span>
         </div>
       </section>
     </div>
