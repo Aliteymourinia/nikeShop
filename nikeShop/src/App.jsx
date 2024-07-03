@@ -4,19 +4,15 @@ import {
   Route,
   Routes,
   useLocation,
-  Link,
 } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
+import "./styles/index.css";
+
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import ProductDetails from "./components/ProductDetails";
-import Cart from "./components/Cart";
-import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
-import Main from "./components/MainContent";
 function App() {
   const location = useLocation();
 
