@@ -79,9 +79,7 @@ function Main() {
       </section>
 
       <div className="">
-        
-
-        
+        <Video />
       </div>
       <h3 className="text-3xl flex justify-center mt-20 mb-20 ">
         Discover The New Products By Categories
