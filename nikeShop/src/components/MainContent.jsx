@@ -79,7 +79,16 @@ function Main() {
       <div className="">
         <img className="" src={NikeGif} alt="" />
       </div>
-        <h3 className="text-3xl flex justify-center mt-20 ">Discover The New Products By Categories</h3>
+      <h3 className="text-3xl flex justify-center mt-20 ">
+        Discover The New Products By Categories
+      </h3>
+      <section>
+        <div>
+          <a className="" href="">
+            <img src="" alt="" />
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
