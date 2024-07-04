@@ -107,7 +107,7 @@ function MainContent() {
             alt="Clothes"
           />
           <div className="absolute flex flex-col gap-1 bottom-[6em] left-1/4 transform -translate-x-1/2">
-            <h1 className="text-white text-2xl mb-2 ">Clothes</h1>
+            <h1 className="text-white text-2xl mb-2 ">Shoes</h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
               <SecondaryButton text="Shop" />
             </span>
