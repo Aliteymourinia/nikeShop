@@ -6,6 +6,9 @@ import GreenShoe from "../assets/GreenShoe.jpg";
 import SecondaryButton from "../components/SecondaryButton";
 import VideoComponent from "../components/Video";
 import Hoodie from "../assets/Hoodie.jpg";
+import WhiteCap from "../assets/WhiteCap.jpg";
+import Accessories from "../assets/Accessories.png";
+
 const Cards = () => {
   return (
     <div>
@@ -115,7 +118,7 @@ const Cards = () => {
         <a href="" className="relative image-container-two">
           <img
             className="w-full h-full object-cover object-[50%,1%]"
-            src={Hoodie}
+            src={Accessories}
             alt="Clothes"
           />
           <div className="absolute flex flex-col gap-1 bottom-[6em] left-1/4 transform -translate-x-1/2">
