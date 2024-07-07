@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
+import Footer from "./components/Footer";
 function App() {
   const location = useLocation();
 

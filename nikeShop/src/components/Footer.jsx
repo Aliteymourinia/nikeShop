@@ -42,7 +42,6 @@ const Footer = () => {
         </FooterLink>
       </FooterLinks>
       <SocialMediaIcons>
-      
       </SocialMediaIcons>
     </FooterContainer>
   );
