@@ -105,12 +105,12 @@ const Cards = () => {
         <a href="" className="relative image-container-two">
           <img
             className="w-full h-full object-cover object-[50%,1%]"
-            src={Hoodie}
+            src={WhiteCap}
             alt="Clothes"
           />
-          <div className="absolute flex flex-col gap-1 bottom-[6em] left-1/4 transform -translate-x-1/2">
-            <h1 className="text-white text-2xl mb-2 ">Shoes</h1>
-            <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
+          <div className="absolute flex flex-col gap-1 bottom-[5.8em] left-28 transform -translate-x-20">
+            <h1 className="text-white text-3xl -mb-3 ">Caps</h1>
+            <span className="absolute top-24 -my-8 left-16 transform -translate-x-3/4 ">
               <SecondaryButton text="Shop" />
             </span>
           </div>
