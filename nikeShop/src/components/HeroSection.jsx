@@ -9,9 +9,9 @@ import PrimaryButton from "./PrimaryButton";
 
 const HeroSection = () => {
   return (
-    <section className="hero flex flex-row p-10 items-center">
-      <div className="relative left-36">
-        <h1 className="w-2/5 leading-tight text-5xl font-bold heroSectionText ">
+    <section className="hero flex flex-row py-10 items-center ">
+      <div className="relative left-64 w-2/4">
+        <h1 className="w-3/5 leading-tight text-5xl font-bold heroSectionText ">
           Shoes as unique as the human who wears it.
         </h1>
         <h2 className="w-80 mx-1 text-sm my-2 font-sans text-gray-600">
@@ -22,7 +22,7 @@ const HeroSection = () => {
           $320.19
         </h1>
       </div>
-      <div className="flex flex-col items-center absolute w-2/5 left-[40%] top-20 ">
+      <div className="flex flex-col items-center absolute w-2/5 left-[40%] top-16 ">
         <img className="" src={nikeShoe} alt="nikeShoe" />
         <div className="buttonContainer absolute top-[65%] left-[63%]">
           <PrimaryButton text="Shop Now" />

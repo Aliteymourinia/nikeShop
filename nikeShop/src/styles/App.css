@@ -22,7 +22,7 @@ Logo {
   background: red;
 }
 .image-container {
-  width: 638px;
+  width: 100%;
   height: 540px;
   overflow: hidden;
 }
