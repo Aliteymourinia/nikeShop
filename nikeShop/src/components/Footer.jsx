@@ -1,6 +1,7 @@
 // src/components/Footer.js
 import React from "react";
 import styled from "styled-components";
+
 const FooterContainer = styled.div`
   background-color: #333;
   color: white;
