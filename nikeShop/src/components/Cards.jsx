@@ -121,8 +121,8 @@ const Cards = () => {
             src={Accessories}
             alt="Clothes"
           />
-          <div className="absolute flex flex-col bottom-[6em] left-1/4 transform -translate-x-1/2">
-            <h1 className="text-white text-3xl mb-2 ">Accessories</h1>
+          <div className="absolute flex flex-col bottom-[5em] left-1/4 transform -translate-x-1/2">
+            <h1 className="text-white text-3xl pt-5 ">Accessories</h1>
             <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
               <SecondaryButton text="Shop" />
             </span>
