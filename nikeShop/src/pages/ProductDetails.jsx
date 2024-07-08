@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../components/Layout";
-
 const ProductDetailsPage = ({ products }) => {
   const { id } = useParams();
   const allProducts = {
@@ -16,28 +15,20 @@ const ProductDetailsPage = ({ products }) => {
 
   if (!product) {
     return (
-      <Layout>
-        <div>Product not found</div>
-      </Layout>
+      <div>
+        <h2>Product not found</h2>
+      </div>
     );
   }
-
   return (
-    <div className="product-details p-4">
-      <div></div>
-      <Layout></Layout>
-        <img
-          src={product.imageURL}
-          alt={product.name}
-          className=""
-          />
-        <h2 className="text-2xl font-bold my-4">{product.name}</h2>
-        <p className="text-gray-500">{product.category}</p>
-        <p className="text-gray-500">{product.gender}</p>
-        <p className="text-lg font-bold">${product.price}</p>
-        <p className="mt-4">{product.description}</p>
-      </div>
-    
+    <div className="product-details">
+      <img src={product.imageURL} alt={product.name} className="w-1/3 h-auto" />
+      <h2 className="text-2xl font-bold my-4">{product.name}</h2>
+      <p className="text-gray-500">{product.category}</p>
+      <p className="text-gray-500">{product.gender}</p>
+      <p className="text-lg font-bold">${product.price}</p>
+      <p className="mt-4">{product.description}</p>
+    </div>
   );
 };
 
