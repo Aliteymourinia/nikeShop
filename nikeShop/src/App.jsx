@@ -31,7 +31,10 @@ function App() {
           element={<ProductListing products={products.customize} />}
         />
       </Route>
-      <Route path="ProductDetails" element={ProductDetails} />
+      <Route
+        path="product/:id"
+        element={<ProductDetails products={products} />}
+      />
     </Routes>
   );
 }
