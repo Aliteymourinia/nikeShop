@@ -6,6 +6,7 @@ import "./styles/Fonts.css";
 import Home from "./pages/Home";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
+import ProductDetails from "./components/ProductDetails";
 import Layout from "./components/Layout";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           element={<ProductListing products={products.customize} />}
         />
       </Route>
+      <Route path="ProductDetails" element={ProductDetails} />
     </Routes>
   );
 }

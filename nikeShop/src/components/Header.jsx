@@ -42,11 +42,11 @@ const Header = () => {
         </ul>
       </nav>
       <div className="iconContainer text-lg hover:cursor-pointer flex gap-4 items-center">
-        <Link to="/search">
+        <Link to="/cart">
           <FontAwesomeIcon icon={faCartShopping} />
         </Link>
 
-        <Link to="/cart">
+        <Link to="/login">
           <FontAwesomeIcon icon={faUser} />
         </Link>
       </div>

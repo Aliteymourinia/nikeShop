@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const ProductListing = ({ products }) => {
   const productsArray = Object.values(products);
   return (
@@ -11,11 +11,13 @@ const ProductListing = ({ products }) => {
             key={product.id}
           >
             <a href={product.https}>
-              <img
-                className="w-full"
-                src={product.imageURL}
-                alt={product.name}
-              />
+              <Link to={"./ProductDetails"}>
+                <img
+                  className="w-full"
+                  src={product.imageURL}
+                  alt={product.name}
+                />
+              </Link>
             </a>
             <div className="ProductDetail flex flex-col  w-full bg-white p-2">
               <h3 className="font-bold">{product.name}</h3>
