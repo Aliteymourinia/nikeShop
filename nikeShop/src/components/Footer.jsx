@@ -1,59 +1,34 @@
 import React from "react";
-import styled from "styled-components";
-
-const FooterContainer = styled.div`
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-`;
-
-const FooterLinks = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 600px;
-`;
-
-const FooterLink = styled.li`
-  margin-bottom: 15px;
-`;
-
-const SocialMediaIcons = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-`;
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer-section">
-      <div class="container">
-        <div class="footer-cta pt-5 pb-5">
-          <div class="row">
-            <div class="col-xl-4 col-md-4 mb-30">
-              <div class="single-cta">
-                <i class="fas fa-map-marker-alt"></i>
-                <div class="cta-text">
+    <footer className="footer-section">
+      <div className="container">
+        <div className="footer-cta pt-5 pb-5">
+          <div className="row">
+            <div className="col-xl-4 col-md-4 mb-30">
+              <div className="single-cta">
+                <i className="fas fa-map-marker-alt"></i>
+                <div className="cta-text">
                   <h4>Find us</h4>
                   <span>1010 Avenue, sw 54321, chandigarh</span>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-md-4 mb-30">
-              <div class="single-cta">
-                <i class="fas fa-phone"></i>
-                <div class="cta-text">
+            <div className="col-xl-4 col-md-4 mb-30">
+              <div className="single-cta">
+                <i className="fas fa-phone"></i>
+                <div className="cta-text">
                   <h4>Call us</h4>
                   <span>9876543210 0</span>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-md-4 mb-30">
-              <div class="single-cta">
-                <i class="far fa-envelope-open"></i>
-                <div class="cta-text">
+            <div className="col-xl-4 col-md-4 mb-30">
+              <div className="single-cta">
+                <i className="far fa-envelope-open"></i>
+                <div className="cta-text">
                   <h4>Mail us</h4>
                   <span>mail@info.com</span>
                 </div>
