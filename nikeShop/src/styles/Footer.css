@@ -10,12 +10,13 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 4em;
+  padding-inline: 7em;
   padding-top: 1em;
 }
 .footer-row {
-  border-bottom: 1px solid #0000001d;
+  border-bottom: 1px solid #0000001f;
   padding-top: 3em;
-  margin-inline: 4em;
+  margin-inline: 5em;
 }
 .single-cta i {
   color: #ff5e14;
