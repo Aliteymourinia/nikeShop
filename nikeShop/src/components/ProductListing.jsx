@@ -13,7 +13,7 @@ const ProductListing = ({ products }) => {
           >
             <Link to={`/product/${product.id}`}>
               <img
-                className=""
+                className="w-full"
                 src={product.imageURL}
                 alt={product.name}
               />
