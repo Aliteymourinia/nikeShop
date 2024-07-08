@@ -9,8 +9,8 @@ import "../styles/Header.css";
 
 const Header = () => {
   return (
-    <div className="HeaderContainer flex p-6 mx-3 justify-center items-center w-full h-12 my-3 relative">
-      <div className="logoContainer hover:cursor-pointer">
+    <div className="Header-container flex p-6 mx-3 justify-center items-center w-full h-12 my-3 relative">
+      <div className="logo-container hover:cursor-pointer">
         <Link to={"/"}>
           <Logo />
         </Link>
