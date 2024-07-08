@@ -1,19 +1,14 @@
 import { Component, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/index.css";
 import "./styles/fonts.css";
-import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 import Layout from "./components/Layout";
+
 function App() {
   return (
     <Routes>
