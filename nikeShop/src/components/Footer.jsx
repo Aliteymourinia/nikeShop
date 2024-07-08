@@ -130,33 +130,32 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright-area">
-        <div className="container">
-          <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+
+      <div className="container">
+        <div className="col-xl-6 col-lg-6 text-center text-lg-left"></div>
+        <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+          <div className="footer-menu">
             <div className="copyright-text">
               <p>
                 Copyright &copy; 2024, All Right Reserved{" "}
                 <a href="https://codepen.io/anupkumar92/">Nike</a>
               </p>
             </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-            <div className="footer-menu">
-              <ul>
-                <li>
-                  <a href="#">Guides</a>
-                </li>
-                <li>
-                  <a href="#">Terms of Use</a>
-                </li>
-                <li>
-                  <a href="#">Terms of Sale</a>
-                </li>
-                <li>
-                  <a href="#">Privacy & Policy</a>
-                </li>
-              </ul>
-            </div>
+            <div className="copyright-area"></div>
+            <ul>
+              <li>
+                <a href="#">Guides</a>
+              </li>
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#">Terms of Sale</a>
+              </li>
+              <li>
+                <a href="#">Privacy & Policy</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
