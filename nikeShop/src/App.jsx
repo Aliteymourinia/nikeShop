@@ -4,7 +4,6 @@ import "./styles/App.css";
 import "./styles/index.css";
 import "./styles/fonts.css";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 import Layout from "./components/Layout";
