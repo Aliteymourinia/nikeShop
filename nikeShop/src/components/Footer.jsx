@@ -60,25 +60,25 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Get Help</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Order Status</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Shipping and Delivery</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Returns</a>
                     </li>
                     <li>
-                      <a href="#"> </a>
+                      <a href="#"> Payment Options</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Reviews</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -90,25 +90,25 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">About Nike</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">News</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Careers</a>
                     </li>
                     <li>
-                      <a href="#"> </a>
+                      <a href="#"> Investors</a>
                     </li>
                     <li>
-                      <a href="#"> </a>
+                      <a href="#"> Purpose</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Sustainability</a>
                     </li>
                     <li>
-                      <a href="#"></a>
+                      <a href="#">Tax</a>
                     </li>
                   </ul>
                 </div>
