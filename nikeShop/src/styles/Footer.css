@@ -143,9 +143,13 @@ ul {
 .copyright-text p a {
   color: #ff5e14;
 }
+.footer-menu {
+  display: flex;
+  justify-content: center;
+}
 .footer-menu li {
-  display: inline-block;
-  margin-left: 20px;
+  display: inline;
+  margin-left: 1.5em;
 }
 .footer-menu li:hover a {
   color: #ff5e14;
