@@ -32,7 +32,7 @@ function App() {
         />
       </Route>
       <Route
-        path="product/:id"
+        path="ProductDetails"
         element={<ProductDetails products={products} />}
       />
     </Routes>
