@@ -96,12 +96,9 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+  background: #fdfdfd;
 }
 .footer-widget ul li {
-  display: inline-block;
-  float: left;
-  width: 50%;
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
