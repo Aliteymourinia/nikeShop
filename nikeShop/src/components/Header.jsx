@@ -17,16 +17,16 @@ const Header = () => {
       </div>
       <nav className="flex-1 flex justify-center ">
         <ul className="flex items-center gap-6">
-          <li className="hover:underline underline-offset- hover:cursor-pointer">
+          <li>
             <Link to="/men">Men</Link>
           </li>
-          <li className="hover:underline underline-offset- hover:cursor-pointer transition-shadow">
+          <li>
             <Link to="/women">Women</Link>
           </li>
-          <li className="hover:underline underline-offset- hover:cursor-pointer transition-shadow">
+          <li>
             <Link to="/kids">Kids</Link>
           </li>
-          <li className="hover:underline underline-offset-4 transition-shadow hover:cursor-pointer">
+          <li>
             <Link to="/customize">Customize</Link>
           </li>
         </ul>
