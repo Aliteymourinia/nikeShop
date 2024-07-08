@@ -60,25 +60,25 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#">Gift Cards</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Find a Store</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Nike Journal</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Become a Member</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Student Discount</a>
+                      <a href="#"> </a>
                     </li>
                     <li>
-                      <a href="#">Feedback</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Promo Codes</a>
+                      <a href="#"></a>
                     </li>
                   </ul>
                 </div>
@@ -90,25 +90,25 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#">Gift Cards</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Find a Store</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Nike Journal</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Become a Member</a>
+                      <a href="#"> </a>
                     </li>
                     <li>
-                      <a href="#">Student Discount</a>
+                      <a href="#"> </a>
                     </li>
                     <li>
-                      <a href="#">Feedback</a>
+                      <a href="#"></a>
                     </li>
                     <li>
-                      <a href="#">Promo Codes</a>
+                      <a href="#"></a>
                     </li>
                   </ul>
                 </div>
