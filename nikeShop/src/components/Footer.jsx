@@ -137,8 +137,8 @@ const Footer = () => {
           <div className="footer-menu">
             <div className="copyright-text">
               <p>
-                Copyright &copy; 2024, All Right Reserved{" "}
-                <a href="https://codepen.io/anupkumar92/">Nike</a>
+                © 2024 Nike, Inc. All rights reserved{" "}
+                <a href="https://codepen.io/anupkumar92/"></a>
               </p>
             </div>
             <div className="copyright-area"></div>
