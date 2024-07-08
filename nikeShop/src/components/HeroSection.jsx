@@ -30,8 +30,7 @@ const HeroSection = () => {
         </div>
       </div>
     </section>
-  ); //add link to shop now btn for going to men products!
+  );
 };
 
 export default HeroSection;
-// {/* <button className="px-7 absolute top-[65%] left-[63%] active:scale-90"></button> */}
