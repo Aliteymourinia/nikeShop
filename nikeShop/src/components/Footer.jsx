@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer-section">
       <div className="container">
-        <div className="footer-cta pt-5 pb-5"></div>
+        <div className="footer-row pb-5 "></div>
         <div className="footer-content ">
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="footer-widget">
@@ -22,94 +22,96 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="flex flex-col gap-1 mt-5">
-              <div className="footer-widget">
-                <div className="footer-widget-heading">
-                  <h3>Recourses</h3>
+            <div className="footer-container">
+              <div className="flex flex-col gap-1 mt-5">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading">
+                    <h3>Recourses</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">Gift Cards</a>
+                    </li>
+                    <li>
+                      <a href="#">Find a Store</a>
+                    </li>
+                    <li>
+                      <a href="#">Nike Journal</a>
+                    </li>
+                    <li>
+                      <a href="#">Become a Member</a>
+                    </li>
+                    <li>
+                      <a href="#">Student Discount</a>
+                    </li>
+                    <li>
+                      <a href="#">Feedback</a>
+                    </li>
+                    <li>
+                      <a href="#">Promo Codes</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul>
-                  <li>
-                    <a href="#">Gift Cards</a>
-                  </li>
-                  <li>
-                    <a href="#">Find a Store</a>
-                  </li>
-                  <li>
-                    <a href="#">Nike Journal</a>
-                  </li>
-                  <li>
-                    <a href="#">Become a Member</a>
-                  </li>
-                  <li>
-                    <a href="#">Student Discount</a>
-                  </li>
-                  <li>
-                    <a href="#">Feedback</a>
-                  </li>
-                  <li>
-                    <a href="#">Promo Codes</a>
-                  </li>
-                </ul>
               </div>
-            </div>
-            <div className="flex flex-col gap-1 mt-5">
-              <div className="footer-widget">
-                <div className="footer-widget-heading">
-                  <h3>Help</h3>
+              <div className="flex flex-col gap-1 mt-5">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading">
+                    <h3>Help</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">Gift Cards</a>
+                    </li>
+                    <li>
+                      <a href="#">Find a Store</a>
+                    </li>
+                    <li>
+                      <a href="#">Nike Journal</a>
+                    </li>
+                    <li>
+                      <a href="#">Become a Member</a>
+                    </li>
+                    <li>
+                      <a href="#">Student Discount</a>
+                    </li>
+                    <li>
+                      <a href="#">Feedback</a>
+                    </li>
+                    <li>
+                      <a href="#">Promo Codes</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul>
-                  <li>
-                    <a href="#">Gift Cards</a>
-                  </li>
-                  <li>
-                    <a href="#">Find a Store</a>
-                  </li>
-                  <li>
-                    <a href="#">Nike Journal</a>
-                  </li>
-                  <li>
-                    <a href="#">Become a Member</a>
-                  </li>
-                  <li>
-                    <a href="#">Student Discount</a>
-                  </li>
-                  <li>
-                    <a href="#">Feedback</a>
-                  </li>
-                  <li>
-                    <a href="#">Promo Codes</a>
-                  </li>
-                </ul>
               </div>
-            </div>
-            <div className="flex flex-col gap-1 mt-5">
-              <div className="footer-widget">
-                <div className="footer-widget-heading">
-                  <h3>Company</h3>
+              <div className="flex flex-col gap-1 mt-5">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading">
+                    <h3>Company</h3>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">Gift Cards</a>
+                    </li>
+                    <li>
+                      <a href="#">Find a Store</a>
+                    </li>
+                    <li>
+                      <a href="#">Nike Journal</a>
+                    </li>
+                    <li>
+                      <a href="#">Become a Member</a>
+                    </li>
+                    <li>
+                      <a href="#">Student Discount</a>
+                    </li>
+                    <li>
+                      <a href="#">Feedback</a>
+                    </li>
+                    <li>
+                      <a href="#">Promo Codes</a>
+                    </li>
+                  </ul>
                 </div>
-                <ul>
-                  <li>
-                    <a href="#">Gift Cards</a>
-                  </li>
-                  <li>
-                    <a href="#">Find a Store</a>
-                  </li>
-                  <li>
-                    <a href="#">Nike Journal</a>
-                  </li>
-                  <li>
-                    <a href="#">Become a Member</a>
-                  </li>
-                  <li>
-                    <a href="#">Student Discount</a>
-                  </li>
-                  <li>
-                    <a href="#">Feedback</a>
-                  </li>
-                  <li>
-                    <a href="#">Promo Codes</a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
