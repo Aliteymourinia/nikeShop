@@ -141,7 +141,7 @@ const Footer = () => {
                 <a href="https://codepen.io/anupkumar92/"></a>
               </p>
             </div>
-            <div className="copyright-area"></div>
+
             <ul>
               <li>
                 <a href="#">Guides</a>
