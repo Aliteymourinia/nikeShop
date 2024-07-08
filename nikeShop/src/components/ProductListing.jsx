@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const ProductListing = ({ products }) => {
   const productsArray = Object.values(products);
   return (
@@ -10,7 +11,7 @@ const ProductListing = ({ products }) => {
             className="ProductCard w-1/5 flex flex-col items-center m-2 bg-gray-100 hover:cursor-pointer "
             key={product.id}
           >
-            <Link to={"/ProductDetails"}>
+            <Link to={`/product/${product.id}`}>
               <img
                 className="w-full"
                 src={product.imageURL}

@@ -6,7 +6,7 @@ import "./styles/Fonts.css";
 import Home from "./pages/Home";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
-import ProductDetails from "./components/ProductDetails";
+import ProductDetailsPage from "./pages/ProductDetails";
 import Layout from "./components/Layout";
 
 function App() {
@@ -32,8 +32,8 @@ function App() {
         />
       </Route>
       <Route
-        path="ProductDetails"
-        element={<ProductDetails products={products} />}
+        path="product/:id"
+        element={<ProductDetailsPage products={products} />}
       />
     </Routes>
   );
