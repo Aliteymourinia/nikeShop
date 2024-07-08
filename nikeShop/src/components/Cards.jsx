@@ -8,7 +8,7 @@ import VideoComponent from "../components/Video";
 import Hoodie from "../assets/Hoodie.jpg";
 import WhiteCap from "../assets/WhiteCap.jpg";
 import Accessories from "../assets/Accessories.png";
-
+import "../styles/Cards.css";
 const Cards = () => {
   return (
     <div>
