@@ -3,14 +3,16 @@ import { useParams } from "react-router-dom";
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
-  const allProducts = [
+  const allProducts = {
     ...products.men,
     ...products.women,
     ...products.kids,
     ...products.customize,
-  ];
-  const product = allProducts.find((product) => product.id === parseInt(id));
-  console.log("Product found:", product);
+  };
+
+  const product = Object.values(allProducts).find(
+    (product) => product.id === parseInt(id)
+  );
 
   if (!product) {
     return <div>Product not found</div>;
@@ -21,7 +23,7 @@ const ProductDetails = ({ products }) => {
       <img
         src={product.imageURL}
         alt={product.name}
-        className="w-full h-auto"
+        className=""
       />
       <h2 className="text-2xl font-bold my-4">{product.name}</h2>
       <p className="text-gray-500">{product.category}</p>
