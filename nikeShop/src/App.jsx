@@ -6,6 +6,7 @@ import "./styles/Fonts.css";
 import Home from "./pages/Home";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
+import ProductDetails from "./components/ProductDetails";
 import Layout from "./components/Layout";
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
         <Route
           path="customize"
           element={<ProductListing products={products.customize} />}
+        />
+        <Route
+          path="product/:id"
+          element={<ProductDetails products={products} />}
         />
       </Route>
     </Routes>
