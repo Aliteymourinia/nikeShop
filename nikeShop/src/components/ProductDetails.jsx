@@ -24,9 +24,9 @@ const ProductDetails = ({ products }) => {
         <img src={product.imageURL} alt={product.name} className="w-4/5" />
       </div>
       <div className="-mx-6">
-        <h2 className="text-2xl  ">{product.name}</h2>
-        <p className="">{product.gender}'s Shoes</p>
-        <p className="text-lg font-semibold">${product.price}</p>
+        <h2 className="text-2xl">{product.name}</h2>
+        <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
+        <p className="text-lg font-semibold mt-2">${product.price}</p>
       </div>
     </div>
   );
