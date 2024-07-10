@@ -66,7 +66,7 @@ const ProductDetails = ({ products }) => {
         <div className="PrimaryButtonContainer mt-3">
           <PrimaryButton
             text="Add to Bag"
-            style={{ padding: "20px 100px", borderRadius: "40px" }}
+            style={{ padding: "20px 100px",borderRadius: "40px" }}
           />
           <SecondaryButton text="Add to Favourite" />
         </div>
