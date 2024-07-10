@@ -31,7 +31,7 @@ const ProductDetails = ({ products }) => {
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-2">${product.price}</p>
-        <table className="w-full border-gray-300 border-separate ">
+        <table className="w-full border-gray-300 border-separate cursor-pointer ">
           <tbody className="">
             <tr className="border border-gray-300">
               <td className="border border-gray-300 p-2">US 2.5</td>
