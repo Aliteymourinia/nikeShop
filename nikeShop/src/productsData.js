@@ -256,7 +256,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 135,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -268,7 +268,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 140,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -280,7 +280,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 90,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -292,7 +292,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 125,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -304,7 +304,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 160,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -316,7 +316,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 110,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -328,7 +328,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 130,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -352,7 +352,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 170,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -364,7 +364,7 @@ export const products = {
       brand: "NIKE",
       gender: "WOMEN",
       category: "OUTDOOR",
-      price: 120,
+      price: 150,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -392,7 +392,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 110,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -406,7 +406,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 150,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -420,7 +420,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 120,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -434,7 +434,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 140,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -448,7 +448,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 180,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -462,7 +462,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 95,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -476,7 +476,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 155,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -490,7 +490,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 170,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -504,7 +504,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 190,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -518,7 +518,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 60,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -532,7 +532,7 @@ export const products = {
       brand: "NIKE",
       gender: "KIDS",
       category: "CASUAL",
-      price: 90,
+      price: 125,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -548,7 +548,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "BASKETBALL",
-      price: 90,
+      price: 220,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -562,7 +562,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 190,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -576,7 +576,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 145,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -590,7 +590,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 240,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -604,7 +604,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 180,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -618,7 +618,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "BASKETBALL",
-      price: 90,
+      price: 260,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -632,7 +632,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 170,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -646,7 +646,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 140,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -660,7 +660,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "BASKETBALL",
-      price: 90,
+      price: 135,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -674,7 +674,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 120,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -688,7 +688,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 170,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
@@ -702,7 +702,7 @@ export const products = {
       brand: "NIKE",
       gender: "MEN",
       category: "CASUAL",
-      price: 90,
+      price: 140,
       is_in_inventory: true,
       items_left: 3,
       imageURL:
