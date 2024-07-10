@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "../styles/ProductDetails.css";
 import PrimaryButton from "./PrimaryButton";
+import SecondaryButton from "./SecondaryButton";
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const allProducts = {
@@ -67,6 +68,7 @@ const ProductDetails = ({ products }) => {
             text="Add to Bag"
             style={{ padding: "20px 100px", borderRadius: "40px" }}
           />
+          <SecondaryButton text="Add to Favourite" />
         </div>
       </div>
     </div>
