@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "../styles/ProductDetails.css";
+import PrimaryButton from "./PrimaryButton";
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const allProducts = {
@@ -31,9 +32,8 @@ const ProductDetails = ({ products }) => {
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
-        <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 mt-2">
-          <h1 className="-ml-4 ">Select Size</h1>
-
+        <h1 className="pt-4">Select Size</h1>
+        <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 ">
           <tbody className="">
             <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md [&>*]:text-gray-800  ">
               <td className="">US 2.5</td>
@@ -62,6 +62,7 @@ const ProductDetails = ({ products }) => {
             </tr>
           </tbody>
         </table>
+        <PrimaryButton text="" />
       </div>
     </div>
   );
