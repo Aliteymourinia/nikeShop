@@ -31,32 +31,32 @@ const ProductDetails = ({ products }) => {
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-2">${product.price}</p>
-        <table className="w-full border-gray-300 border-separate cursor-pointer ">
+        <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1  ">
           <tbody className="">
-            <tr className="border border-gray-300">
-              <td className="border border-gray-300 p-2">US 2.5</td>
-              <td className="border border-gray-300 p-2">US 3</td>
-              <td className=" border border-gray-300 p-2">US 3.5</td>
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md">
+              <td className="">US 2.5</td>
+              <td className="">US 3</td>
+              <td className="">US 3.5</td>
             </tr>
-            <tr className="border border-gray-300">
-              <td className="border border-gray-300 p-2">US 4</td>
-              <td className="border border-gray-300 p-2">US 4.5</td>
-              <td className="border p-2 border-gray-300">US 5</td>
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+              <td className="">US 4</td>
+              <td className="">US 4.5</td>
+              <td className="">US 5</td>
             </tr>
-            <tr className="border border-gray-300">
-              <td className="border border-gray-300 p-2">US 5.5</td>
-              <td className="border border-gray-300 p-2">US 6</td>
-              <td className="border p-2 border-gray-300">US 6.5</td>
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+              <td className="">US 5.5</td>
+              <td className="">US 6</td>
+              <td className="">US 6.5</td>
             </tr>
-            <tr className="border border-gray-300">
-              <td className="border border-gray-300 p-2">US 7</td>
-              <td className="border border-gray-300 p-2">US 7.5</td>
-              <td className="border p-2 border-gray-300">US 8</td>
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+              <td className="">US 7</td>
+              <td className="">US 7.5</td>
+              <td className="">US 8</td>
             </tr>
-            <tr>
-              <td className="border border-gray-300 p-2">US 8.5</td>
-              <td className="border border-gray-300 p-2">US 9</td>
-              <td className="border p-2 border-gray-300">US 9.5</td>
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+              <td className="">US 8.5</td>
+              <td className="">US 9</td>
+              <td className="">US 9.5</td>
             </tr>
           </tbody>
         </table>
