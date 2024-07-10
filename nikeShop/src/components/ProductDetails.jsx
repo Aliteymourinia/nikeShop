@@ -62,11 +62,8 @@ const ProductDetails = ({ products }) => {
             </tr>
           </tbody>
         </table>
-        <div className="PrimaryButtonContainer">
-          <PrimaryButton
-            text="Add to Bag"
-            style={{ backgroundColor: "blue" }}
-          />
+        <div className="PrimaryButtonContainer mt-3">
+          <PrimaryButton text="Add to Bag" style={{ padding: "20px 100px",: }} />
         </div>
       </div>
     </div>
