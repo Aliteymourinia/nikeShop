@@ -30,8 +30,10 @@ const ProductDetails = ({ products }) => {
       <div className="Description-Container -mx-6 mt-1">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
-        <p className="text-lg font-semibold mt-2">${product.price}</p>
-        <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1  ">
+        <p className="text-lg font-semibold mt-1">${product.price}</p>
+        <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 mt-2">
+          <h1 className="-ml-4 ">Select Size</h1>
+
           <tbody className="">
             <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md">
               <td className="">US 2.5</td>
