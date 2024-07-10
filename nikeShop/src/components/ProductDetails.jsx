@@ -21,7 +21,11 @@ const ProductDetails = ({ products }) => {
   return (
     <div className="product-details flex p-3 pl-24">
       <div>
-        <img src={product.imageURL} alt={product.name} className="w-4/5" />
+        <img
+          src={product.imageURL}
+          alt={product.name}
+          className="w-4/5 rounded-lg"
+        />
       </div>
       <div className="Description-Container -mx-6 mt-1">
         <h2 className="text-2xl">{product.name}</h2>
