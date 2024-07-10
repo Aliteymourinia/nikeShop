@@ -27,7 +27,7 @@ const ProductDetails = ({ products }) => {
           className="w-4/5 rounded-lg h-[90%] object-cover"
         />
       </div>
-      <div className="Description-Container  mt-1">
+      <div className="Description-Container  mt-1 -ml-5">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
