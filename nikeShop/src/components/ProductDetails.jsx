@@ -38,22 +38,22 @@ const ProductDetails = ({ products }) => {
               <td className="">US 3</td>
               <td className="">US 3.5</td>
             </tr>
-            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md">
               <td className="">US 4</td>
               <td className="">US 4.5</td>
               <td className="">US 5</td>
             </tr>
-            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md">
               <td className="">US 5.5</td>
               <td className="">US 6</td>
               <td className="">US 6.5</td>
             </tr>
-            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md">
               <td className="">US 7</td>
               <td className="">US 7.5</td>
               <td className="">US 8</td>
             </tr>
-            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2">
+            <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md">
               <td className="">US 8.5</td>
               <td className="">US 9</td>
               <td className="">US 9.5</td>
