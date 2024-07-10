@@ -19,11 +19,11 @@ const ProductDetails = ({ products }) => {
   }
 
   return (
-    <div className="product-details flex p-4 pl-24">
+    <div className="product-details flex p-3 pl-24">
       <div>
-        <img src={product.imageURL} alt={product.name} className="" />
+        <img src={product.imageURL} alt={product.name} className="w-4/5" />
       </div>
-      <div>
+      <div className="-mx-6">
         <h2 className="text-2xl  ">{product.name}</h2>
         <p className="">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold">${product.price}</p>
