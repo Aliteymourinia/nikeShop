@@ -4,7 +4,7 @@ import Hoodie from "../assets/Hoodie.jpg";
 import WhiteCap from "../assets/WhiteCap.jpg";
 import Accessories from "../assets/Accessories.png";
 import "../styles/Cards.css";
-const CardsTwo = () => {
+const CardsTwo = (className) => {
   return (
     <div>
       <section className="flex justify-center gap-3">
