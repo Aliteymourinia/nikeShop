@@ -21,7 +21,7 @@ const ProductDetails = ({ products }) => {
   }
 
   return (
-    <div className="product-details flex p-3 pl-28">
+    <div className="ProductDetails flex p-3 pl-28">
       <div>
         <img
           src={product.imageURL}
