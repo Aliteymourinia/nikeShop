@@ -25,13 +25,11 @@ const ProductDetails = ({ products }) => {
 
   return (
     <div className="ProductDetails flex p-3 pl-28">
-      <div className="">
-        <img
-          src={product.imageURL}
-          alt={product.name}
-          className="w-4/5 rounded-lg object-cover"
-        />
-      </div>
+      <img
+        src={product.imageURL}
+        alt={product.name}
+        className="w-2/5 h-3/4 rounded-lg object-cover"
+      />
       <div className="Description-Container mt-1 -ml-5">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
