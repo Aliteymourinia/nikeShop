@@ -1,9 +1,12 @@
 import React from "react";
 
-function SecondaryButton({ text }) {
+function SecondaryButton({ text, style }) {
   return (
     <div>
-      <button className="bg-white text-black px-5 font-bold hover:bg-black hover:text-white active:scale-90 ">
+      <button
+        style={style}
+        className="bg-white text-black px-5 font-bold hover:bg-black hover:text-white active:scale-90 "
+      >
         {text}
       </button>
     </div>
