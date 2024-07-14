@@ -63,11 +63,8 @@ const ProductDetails = ({ products }) => {
             </tr>
           </tbody>
         </table>
-        <div className="PrimaryButtonContainer mt-3 " style={{}}>
-          <PrimaryButton text="Add to Bag" className="" style={{}} />
-          <div className="SecondaryButtonContainer mt-3"></div>
-          <SecondaryButton text="Add to Favourite" className="font-light" />
-        </div>
+        <PrimaryButton text="Add to Bag" className="mt-3 px-24 py-4 rounded-full"/>
+        <SecondaryButton text="Add to Favourite" className="font-light" />
       </div>
     </div>
   );

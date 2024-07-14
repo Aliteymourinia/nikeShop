@@ -1,11 +1,9 @@
 import React from "react";
 
-const PrimaryButton = ({ text, style }) => {
+const PrimaryButton = ({ text, className }) => {
   return (
     <div className="">
-      <button style={style} className=" active:scale-90 px-7">
-        {text}
-      </button>
+      <button className={` active:scale-90 px-7} ${className}`}>{text}</button>
     </div>
   );
 };
