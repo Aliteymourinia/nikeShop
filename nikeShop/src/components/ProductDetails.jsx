@@ -65,11 +65,11 @@ const ProductDetails = ({ products }) => {
         </table>
         <PrimaryButton
           text="Add to Bag"
-          className="mt-4 px-24 py-4 rounded-full"
+          className="mt-4 px-24 py-4 rounded-full "
         />
         <SecondaryButton
           text="Add to Favourite"
-          className="font-light px-20 py-4 rounded-full mt-2 bg-black text-white mx-3"
+          className="font-light px-20 py-4 rounded-full mt-3 bg-white text-black outline-gray-300 outline mx-3 "
         />
       </div>
     </div>
