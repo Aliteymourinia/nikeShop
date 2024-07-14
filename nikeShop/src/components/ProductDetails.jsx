@@ -72,7 +72,8 @@ const ProductDetails = ({ products }) => {
           <SecondaryButton
             text="Add to Favourite"
             style={{
-              padding: "20px 70px",
+              padding: "20px 80px",
+              marginLeft: "15px",
               borderRadius: "40px",
               fontWeight: "lighter",
             }}
