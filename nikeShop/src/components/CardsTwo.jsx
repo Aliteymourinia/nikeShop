@@ -4,9 +4,14 @@ import Hoodie from "../assets/Hoodie.jpg";
 import WhiteCap from "../assets/WhiteCap.jpg";
 import Accessories from "../assets/Accessories.png";
 import "../styles/Cards.css";
-const CardsTwo = (className) => {
+
+const CardsTwo = ({ className }) => {
   return (
-    <div>
+    <div
+      className={` ${className}`}
+    >
+      {" "}
+      {/* this className is for pass props to another components */}
       <section className="flex justify-center gap-3">
         <a href="" className="relative image-container-two">
           <img
