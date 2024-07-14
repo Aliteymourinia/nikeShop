@@ -1,11 +1,10 @@
 import React from "react";
 
-function SecondaryButton({ text, style }) {
+function SecondaryButton({ text, className }) {
   return (
     <div>
       <button
-        style={style}
-        className="bg-white text-black px-5 font-bold hover:bg-black hover:text-white active:scale-90 "
+        className={`bg-white text-black px-5 font-bold hover:bg-black hover:text-white active:scale-90 ${className}`}
       >
         {text}
       </button>

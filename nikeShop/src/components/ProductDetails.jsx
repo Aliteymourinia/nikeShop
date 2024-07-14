@@ -64,20 +64,9 @@ const ProductDetails = ({ products }) => {
           </tbody>
         </table>
         <div className="PrimaryButtonContainer mt-3 " style={{}}>
-          <PrimaryButton
-            text="Add to Bag"
-            style={{ padding: "20px 100px", borderRadius: "40px" }}
-          />
+          <PrimaryButton text="Add to Bag" className="" style={{}} />
           <div className="SecondaryButtonContainer mt-3"></div>
-          <SecondaryButton
-            text="Add to Favourite"
-            style={{
-              padding: "20px 80px",
-              marginLeft: "15px",
-              borderRadius: "40px",
-              fontWeight: "lighter",
-            }}
-          />
+          <SecondaryButton text="Add to Favourite" className="font-light" />
         </div>
       </div>
     </div>
