@@ -4,6 +4,7 @@ import "../styles/ProductDetails.css";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import Cards from "./Cards";
+import CardsTwo from "./CardsTwo";
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
@@ -24,14 +25,14 @@ const ProductDetails = ({ products }) => {
 
   return (
     <div className="ProductDetails flex p-3 pl-28">
-      <div>
+      <div className="">
         <img
           src={product.imageURL}
           alt={product.name}
-          className="w-4/5 rounded-lg h-[90%] object-cover"
+          className="w-4/5 rounded-lg object-cover"
         />
       </div>
-      <div className="Description-Container  mt-1 -ml-5">
+      <div className="Description-Container mt-1 -ml-5">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
@@ -73,6 +74,9 @@ const ProductDetails = ({ products }) => {
           text="Add to Favourite"
           className="font-light px-20 py-4 rounded-full mt-4 bg-white text-black outline outline-gray-300  mx-3 scale-110 hover:outline-[1px] hover:bg-white hover:text-black"
         />
+        <div className=" mt-64 w-fit">
+          <CardsTwo />
+        </div>
       </div>
     </div>
   );
