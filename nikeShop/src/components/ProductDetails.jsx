@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import "../styles/ProductDetails.css";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
+import Cards from "./Cards";
+
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const allProducts = {
