@@ -63,8 +63,14 @@ const ProductDetails = ({ products }) => {
             </tr>
           </tbody>
         </table>
-        <PrimaryButton text="Add to Bag" className="mt-3 px-24 py-4 rounded-full"/>
-        <SecondaryButton text="Add to Favourite" className="font-light" />
+        <PrimaryButton
+          text="Add to Bag"
+          className="mt-4 px-24 py-4 rounded-full"
+        />
+        <SecondaryButton
+          text="Add to Favourite"
+          className="font-light px-20 py-4 rounded-full mt-2 bg-black text-white mx-3"
+        />
       </div>
     </div>
   );
