@@ -8,8 +8,7 @@ function SecondaryButton({ text, className, icon }) {
       <button
         className={`bg-white text-black font-bold hover:bg-black active:scale-90 ${className}`}
       >
-        {text}
-        {icon && <span className="">{icon}</span>}
+        {text} {icon && <span className="absolute">{icon}</span>}
       </button>
     </div>
   );
