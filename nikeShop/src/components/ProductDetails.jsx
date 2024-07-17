@@ -79,12 +79,12 @@ const ProductDetails = ({ products }) => {
         </table>
         <PrimaryButton
           text="Add to Bag"
-          className="mt-6 px-28 py-4 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
+          className="mt-6 px-28 py-4 mx-1 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
         />
         <FavouriteButton
           text="Favourite"
           icon={HeartIcon}
-          className="mt-4 px-[117px] py-4 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-gray-950 text-nowrap"
+          className="mt-4 px-[117px] py-4 mx-1 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-gray-950 text-nowrap"
         />
       </div>
       <CardsTwo
