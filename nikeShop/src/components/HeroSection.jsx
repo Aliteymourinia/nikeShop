@@ -26,7 +26,7 @@ const HeroSection = () => {
         <img className="" src={nikeShoe} alt="nikeShoe" />
         <div className="buttonContainer absolute top-[65%] left-[63%]">
           <Link to={"/Men"}>
-            <PrimaryButton text="Shop Now" />
+            <PrimaryButton text="Shop Now" className="px-10 py-4 text-nowrap rounded-full" />
           </Link>
         </div>
       </div>

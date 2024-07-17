@@ -29,7 +29,7 @@ const ProductDetails = ({ products }) => {
         alt={product.name}
         className="w-2/5 h-3/4 rounded-lg object-cover mx-8 "
       />
-      <div className="Description-Container mt-1 ml-12">
+      <div className="Description-Container mt-1 ml-9 px-4">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
@@ -65,11 +65,11 @@ const ProductDetails = ({ products }) => {
         </table>
         <PrimaryButton
           text="Add to Bag"
-          className="mt-6 px-24 py-4 rounded-full scale-110 hover:bg-zinc-500 hover:text-white"
+          className="mt-6 px-24 py-4 -ml-1 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap"
         />
         <SecondaryButton
           text="Favourite"
-          className="font-light px-20 py-4 rounded-full mt-4 bg-white text-black outline outline-gray-300  mx-3 scale-110 hover:outline-[1px] hover:bg-white hover:text-blue-700 "
+          className=" mt-4 font-light pr-44 py-4 rounded-full  bg-white text-black outline outline-gray-300  mx-3 scale-110 hover:outline-[1px] hover:bg-white hover:text-black "
         />
       </div>
       <CardsTwo
