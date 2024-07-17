@@ -1,3 +1,7 @@
 table h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.custom-hover:hover {
+  color: black !important;
+}
