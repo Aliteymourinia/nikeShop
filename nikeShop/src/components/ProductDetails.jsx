@@ -69,7 +69,7 @@ const ProductDetails = ({ products }) => {
         />
         <SecondaryButton
           text="Favourite"
-          className="font-light px-20 py-4 rounded-full mt-4 bg-white outline outline-gray-300  mx-3 scale-110 hover:outline-[1px] hover:text-gray-900 hover:bg-white "
+          className="font-light px-20 py-4 rounded-full mt-4 bg-white outline outline-gray-300  mx-3 scale-110 hover:outline-[1px] hover:bg-white hover:text-black "
         />
       </div>
       <CardsTwo
