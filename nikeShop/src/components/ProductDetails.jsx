@@ -82,7 +82,7 @@ const ProductDetails = ({ products }) => {
         <SecondaryButton
           text="Favourite"
           icon={HeartIcon}
-          className=" mt-4 px-28 py-4 pr-[150px] rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-black text-nowrap"
+          className=" mt-4 px-[117px] py-4 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-gray-950 text-nowrap"
         />
       </div>
       <CardsTwo
