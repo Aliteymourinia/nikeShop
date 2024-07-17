@@ -83,7 +83,7 @@ const ProductDetails = ({ products }) => {
         <p className="text-lg font-semibold mt-1">${product.price}</p>
         <h1 className="pt-4">Select Size</h1>
 
-        <table className=" w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 ">
+        <table className=" text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 ">
           <tbody className="flex flex-wrap">
             {sizes.map((size, index) => (
               <tr key={index}>{renderSizeCell(size)}</tr>
