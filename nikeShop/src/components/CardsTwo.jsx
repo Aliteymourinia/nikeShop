@@ -5,11 +5,9 @@ import WhiteCap from "../assets/WhiteCap.jpg";
 import Accessories from "../assets/Accessories.png";
 import "../styles/Cards.css";
 
-const CardsTwo = ({ className }) => {
+const CardsTwo = ({ className, src }) => {
   return (
-    <div
-      className={` ${className}`}
-    >
+    <div {...src} className={` ${className}`}>
       {" "}
       {/* this className is for pass props to another components */}
       <section className="flex justify-center gap-3">

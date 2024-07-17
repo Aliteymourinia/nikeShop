@@ -4,7 +4,7 @@ import "../styles/ProductDetails.css";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import CardsTwo from "./CardsTwo";
-
+import AirGreen from "../assets/AirGreen.png";
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const allProducts = {
@@ -68,11 +68,14 @@ const ProductDetails = ({ products }) => {
           className="mt-6 px-24 py-4 rounded-full scale-110 hover:bg-zinc-500 hover:text-white"
         />
         <SecondaryButton
-          text="Add to Favourite"
+          text="Favourite"
           className="font-light px-20 py-4 rounded-full mt-4 bg-white text-black outline outline-gray-300  mx-3 scale-110 hover:outline-[1px] hover:bg-white hover:text-black"
         />
       </div>
-      <CardsTwo className=" w-[1200px] h-[350px] mt-[37em] -ml-[60em]  " />
+      <CardsTwo
+        className=" w-[1200px] h-[350px] mt-[37em] -ml-[60em]  "
+        src={AirGreen}
+      />
     </div>
   );
 };
