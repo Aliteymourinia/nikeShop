@@ -7,6 +7,7 @@ import CardsTwo from "./CardsTwo";
 import AirGreen from "../assets/AirGreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHamburger, faHeart } from "@fortawesome/free-solid-svg-icons";
+import FavouriteButton from "./FavouriteButton";
 
 const HeartIcon = (
   <svg
@@ -19,7 +20,6 @@ const HeartIcon = (
 );
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
-  const [selectedSize, setSelectedSize] = useState(null);
   const allProducts = {
     ...products.men,
     ...products.women,
@@ -34,38 +34,6 @@ const ProductDetails = ({ products }) => {
   if (!product) {
     return <div>Product not found</div>;
   }
-  const handleSizeClick = (size) => {
-    setSelectedSize(size);
-  };
-  const renderSizeCell = (size) => (
-    <td
-      key={size}
-      className={`cursor-pointer p-2 rounded-md text-gray-800 border border-gray-300 ${
-        selectedSize === size ? "bg-blue-500 text-white" : ""
-      }`}
-      onClick={() => handleSizeClick(size)}
-    >
-      {size}
-    </td>
-  );
-
-  const sizes = [
-    "US 2.5",
-    "US 3",
-    "US 3.5",
-    "US 4",
-    "US 4.5",
-    "US 5",
-    "US 5.5",
-    "US 6",
-    "US 6.5",
-    "US 7",
-    "US 7.5",
-    "US 8",
-    "US 8.5",
-    "US 9",
-    "US 9.5",
-  ];
 
   return (
     <div className="ProductDetails flex p-3 pl-28">
@@ -81,7 +49,7 @@ const ProductDetails = ({ products }) => {
         <h1 className="pt-4">Select Size</h1>
 
         <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 ">
-          <tbody>
+          <tbody className="">
             <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md [&>*]:text-gray-800  ">
               <td className="">US 2.5</td>
               <td className="">US 3</td>
@@ -113,10 +81,10 @@ const ProductDetails = ({ products }) => {
           text="Add to Bag"
           className="mt-6 px-28 py-4 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
         />
-        <SecondaryButton
+        <FavouriteButton
           text="Favourite"
           icon={HeartIcon}
-          className=" mt-4 px-[117px] py-4 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-gray-950 text-nowrap"
+          className="mt-4 px-[117px] py-4 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-gray-950 text-nowrap"
         />
       </div>
       <CardsTwo
