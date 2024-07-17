@@ -19,6 +19,7 @@ const HeartIcon = (
 );
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
+  const [selectedSize, setSelectedSize] = useState(null);
   const allProducts = {
     ...products.men,
     ...products.women,
@@ -33,6 +34,38 @@ const ProductDetails = ({ products }) => {
   if (!product) {
     return <div>Product not found</div>;
   }
+  const handleSizeClick = (size) => {
+    setSelectedSize(size);
+  };
+  const renderSizeCell = (size) => (
+    <td
+      key={size}
+      className={`cursor-pointer p-2 rounded-md text-gray-800 border border-gray-300 ${
+        selectedSize === size ? "bg-blue-500 text-white" : ""
+      }`}
+      onClick={() => handleSizeClick(size)}
+    >
+      {size}
+    </td>
+  );
+
+  const sizes = [
+    "US 2.5",
+    "US 3",
+    "US 3.5",
+    "US 4",
+    "US 4.5",
+    "US 5",
+    "US 5.5",
+    "US 6",
+    "US 6.5",
+    "US 7",
+    "US 7.5",
+    "US 8",
+    "US 8.5",
+    "US 9",
+    "US 9.5",
+  ];
 
   return (
     <div className="ProductDetails flex p-3 pl-28">
@@ -46,8 +79,9 @@ const ProductDetails = ({ products }) => {
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
         <h1 className="pt-4">Select Size</h1>
+
         <table className="w-80 h-60 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-2 ">
-          <tbody className="">
+          <tbody>
             <tr className="parent [&>*]:border [&>*]:border-gray-300 [&>*]:p-2 [&>*]:rounded-md [&>*]:text-gray-800  ">
               <td className="">US 2.5</td>
               <td className="">US 3</td>
