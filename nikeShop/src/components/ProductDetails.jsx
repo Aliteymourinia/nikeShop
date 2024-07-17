@@ -5,6 +5,9 @@ import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import CardsTwo from "./CardsTwo";
 import AirGreen from "../assets/AirGreen.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const allProducts = {
@@ -69,6 +72,7 @@ const ProductDetails = ({ products }) => {
         />
         <SecondaryButton
           text="Favourite"
+          icon={<FontAwesomeIcon icon={faHeart} />}
           className=" mt-4 font-light py-4 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-black "
         />
       </div>
