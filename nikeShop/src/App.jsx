@@ -11,36 +11,36 @@ import CartPage from "./components/CartPage";
 import { CartProvider } from "./context/CartContext";
 import CartIcon from "./components/CartIcon";
 import Layout from "./components/Layout";
+import Header from "./components/Header";
 
 function App() {
   return (
     <CartProvider>
       <Routes>
-        <Switch>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route
-              path="men"
-              element={<ProductListing products={products.men} />}
-            />
-            <Route
-              path="women"
-              element={<ProductListing products={products.women} />}
-            />
-            <Route
-              path="kids"
-              element={<ProductListing products={products.kids} />}
-            />
-            <Route
-              path="customize"
-              element={<ProductListing products={products.customize} />}
-            />
-            <Route
-              path="product/:id"
-              element={<ProductDetails products={products} />}
-            />
-          </Route>
-        </Switch>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route
+            path="men"
+            element={<ProductListing products={products.men} />}
+          />
+          <Route
+            path="women"
+            element={<ProductListing products={products.women} />}
+          />
+          <Route
+            path="kids"
+            element={<ProductListing products={products.kids} />}
+          />
+          <Route
+            path="customize"
+            element={<ProductListing products={products.customize} />}
+          />
+          <Route
+            path="product/:id"
+            element={<ProductDetails products={products} />}
+          />
+        </Route>
+        <Route path="/cart" element={<CartPage />} />
       </Routes>
     </CartProvider>
   );
