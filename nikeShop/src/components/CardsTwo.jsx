@@ -27,8 +27,8 @@ const CardsTwo = ({ className }) => {
         <a href="" className="relative image-container-two">
           <img
             className="w-full h-full object-cover object-[50%,1%]"
-            src={WhiteCap}
-            alt="Clothes"
+            src={LightGreen}
+            alt="LightGreenShoe"
           />
           <div className="absolute flex flex-col bottom-[5em] left-28 transform -translate-x-20">
             <h1 className="text-white text-3xl pt-1 ">Caps</h1>
@@ -40,8 +40,8 @@ const CardsTwo = ({ className }) => {
         <a href="" className="relative image-container-two">
           <img
             className="w-full h-full object-cover object-[50%,1%]"
-            src={Accessories}
-            alt="Clothes"
+            src={whiteAir}
+            alt="whiteAirShoe"
           />
           <div className="absolute flex flex-col bottom-[5em] left-1/4 transform -translate-x-1/2">
             <h1 className="text-white text-3xl pt-5 ">Accessories</h1>
