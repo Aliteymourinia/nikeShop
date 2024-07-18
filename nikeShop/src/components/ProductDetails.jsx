@@ -6,7 +6,6 @@ import SecondaryButton from "./SecondaryButton";
 import CardsTwo from "./CardsTwo";
 import AirGreen from "../assets/AirGreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHamburger, faHeart } from "@fortawesome/free-solid-svg-icons";
 import FavouriteButton from "./FavouriteButton";
 
 const HeartIcon = (
