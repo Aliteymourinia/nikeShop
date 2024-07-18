@@ -2,15 +2,15 @@ import React from "react";
 import { useCart } from "../context/CartContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const CartIcon = () => {
   const { notificationCount, clearNotification } = useCart();
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleClick = () => {
     clearNotification();
-    history.push("/cart");
+    navigate("/cart");
   };
 
   return (

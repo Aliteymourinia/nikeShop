@@ -5,6 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Nike.jsx";
+import CartIcon from "./CartIcon.jsx";
 import "../styles/Header.css";
 
 const Header = () => {
