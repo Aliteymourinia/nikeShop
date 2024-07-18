@@ -9,7 +9,7 @@ const CardsTwo = ({ className }) => {
   return (
     <div className={` ${className}`}>
       {" "}
-      {/* this className is for pass props to another components */}
+      {/* The above className is for pass props to another components */}
       <section className="flex justify-center gap-3">
         <a href="" className="relative image-container-two">
           <img

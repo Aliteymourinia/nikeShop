@@ -119,7 +119,7 @@ const ProductDetails = ({ products }) => {
           </Alert>
         )}
       </div>
-      <CardsTwo className=" w-[1200px] h-[350px] mt-[37em] -ml-[60em] " />
+      <CardsTwo className=" w-[1200px] h-2/4 mt-[37em] -ml-[60em] " />
     </div>
   );
 };
