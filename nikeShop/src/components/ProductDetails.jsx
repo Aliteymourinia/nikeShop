@@ -119,10 +119,7 @@ const ProductDetails = ({ products }) => {
           </Alert>
         )}
       </div>
-      <CardsTwo
-        className=" w-[1200px] h-[350px] mt-[37em] -ml-[60em] "
-        src={AirGreen}
-      />
+      <CardsTwo className=" w-[1200px] h-[350px] mt-[37em] -ml-[60em] " />
     </div>
   );
 };

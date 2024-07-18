@@ -1,4 +1,3 @@
-// src/components/Cart.jsx
 import React from "react";
 
 const Cart = ({ items }) => {
