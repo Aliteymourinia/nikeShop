@@ -81,6 +81,16 @@ const ProductDetails = ({ products }) => {
       setShowAlert(false);
     }, 3000);
   };
+
+  const handleAddToBagClick = () => {
+    if (selectedSize) {
+      addToCart({ ...product, size: selectedSize });
+      handleFavouriteClick();
+    } else {
+      alert("Please select a size before adding to the bag.");
+    }
+  };
+
   return (
     <div className="ProductDetails flex p-3 pl-28 -mt-3">
       <img
@@ -103,6 +113,7 @@ const ProductDetails = ({ products }) => {
         </table>
         <PrimaryButton
           text="Add to Bag"
+          onClick={handleAddToBagClick}
           className="mt-[13.6em] px-[90px] py-4 -ml-0 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
         />
         <FavouriteButton
