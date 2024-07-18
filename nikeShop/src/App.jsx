@@ -1,10 +1,5 @@
 import { Component, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Switch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/index.css";
 import "./styles/Fonts.css";
