@@ -66,11 +66,11 @@ const ProductDetails = ({ products }) => {
     "US 8.5",
     "US 9",
     "US 9.5",
-    "US 10",
+    "US10",
   ];
 
   return (
-    <div className="ProductDetails flex p-3 pl-28">
+    <div className="ProductDetails flex p-3 pl-28 -mt-3">
       <img
         src={product.imageURL}
         alt={product.name}
