@@ -22,7 +22,7 @@ const CardsTwo = ({ className }) => {
           </a>
           <h1>Nike Dunk Low Retro</h1>
           <h2>Men's Shoe</h2>
-          <h3>£109.99</h3>
+          <h3>$109.99</h3>
         </div>
         <div>
           <a href="" className="">
@@ -32,9 +32,9 @@ const CardsTwo = ({ className }) => {
               alt="whiteAirShoe"
             />
           </a>
-          <h1>Nike Dunk Low Retro</h1>
+          <h1>Nike Air Force Low</h1>
           <h2>Men's Shoe</h2>
-          <h3>£109.99</h3>
+          <h3>$109.99</h3>
         </div>
         <div>
           <a href="" className="">
@@ -43,9 +43,9 @@ const CardsTwo = ({ className }) => {
               src={LightGreen}
               alt="LightGreenShoe"
             />
-            <h1>Nike Dunk Low Retro</h1>
+            <h1>Nike Dunk Low Green</h1>
             <h2>Men's Shoe</h2>
-            <h3>£109.99</h3>
+            <h3>$109.99</h3>
           </a>
         </div>
       </section>
