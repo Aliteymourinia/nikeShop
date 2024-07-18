@@ -17,12 +17,6 @@ const CardsTwo = ({ className }) => {
             src={blueNike}
             alt="blueNikeShoe"
           />
-          <div className="absolute flex flex-col bottom-[5em] left-1/4 transform -translate-x-1/2">
-            <h1 className="text-white text-3xl pt-5 ">Clothes</h1>
-            <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
-              <SecondaryButton text="Shop" />
-            </span>
-          </div>
         </a>
         <a href="" className="relative image-container-two">
           <img
@@ -30,12 +24,6 @@ const CardsTwo = ({ className }) => {
             src={LightGreen}
             alt="LightGreenShoe"
           />
-          <div className="absolute flex flex-col bottom-[5em] left-28 transform -translate-x-20">
-            <h1 className="text-white text-3xl pt-1 ">Caps</h1>
-            <span className="absolute top-24 -my-8 left-16 transform -translate-x-3/4 ">
-              <SecondaryButton text="Shop" />
-            </span>
-          </div>
         </a>
         <a href="" className="relative image-container-two">
           <img
@@ -43,12 +31,6 @@ const CardsTwo = ({ className }) => {
             src={whiteAir}
             alt="whiteAirShoe"
           />
-          <div className="absolute flex flex-col bottom-[5em] left-1/4 transform -translate-x-1/2">
-            <h1 className="text-white text-3xl pt-5 ">Accessories</h1>
-            <span className="absolute top-24 -my-4 left-16 transform -translate-x-3/4 ">
-              <SecondaryButton text="Shop" />
-            </span>
-          </div>
         </a>
       </section>
     </div>
