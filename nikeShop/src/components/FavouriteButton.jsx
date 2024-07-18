@@ -1,6 +1,6 @@
 import React from "react";
 
-function FavouriteButton({ text, className, icon }) {
+function FavouriteButton({ text, className, icon, onClick }) {
   return (
     <div>
       <button
