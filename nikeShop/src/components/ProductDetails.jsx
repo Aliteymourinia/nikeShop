@@ -86,7 +86,7 @@ const ProductDetails = ({ products }) => {
         alt={product.name}
         className="w-2/5 h-3/4 rounded-lg object-cover mx-8 "
       />
-      <div className="Description-Container -mt-1 ml-9 px-4">
+      <div className="Description-Container -mt-1 ml-9 px-4 h-fit">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
@@ -119,7 +119,7 @@ const ProductDetails = ({ products }) => {
           </Alert>
         )}
       </div>
-      <CardsTwo className=" w-[1200px] h-2/4 mt-[37em] -ml-[60em] " />
+      <CardsTwo className="  mt-[40em]  " />
     </div>
   );
 };

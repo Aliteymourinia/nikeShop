@@ -12,15 +12,17 @@ const CardsTwo = ({ className }) => {
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>
       <section className="flex justify-center gap-3">
-        <div>
-          <a href="" className="relative image-container-two">
+        <div className="w-[300px]">
+          <a href="" className="">
             <img
               className="w-full h-full object-cover object-[50%,1%]"
               src={blueNike}
               alt="blueNikeShoe"
             />
           </a>
-          <h1></h1>
+          <h1>Nike Dunk Low Retro</h1>
+          <h2>Men's Shoe</h2>
+          <h3>£109.99</h3>
         </div>
         <div>
           <a href="" className="relative image-container-two">

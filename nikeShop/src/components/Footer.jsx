@@ -10,17 +10,6 @@ const Footer = () => {
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="footer-widget">
               <div className="footer-text"></div>
-              <div className="footer-social-icon">
-                <a href="#">
-                  <i className="fab fa-facebook-f facebook-bg"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter twitter-bg"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-google-plus-g google-bg"></i>
-                </a>
-              </div>
             </div>
             <div className="footer-container">
               <div className="flex flex-col gap-1 mt-5">
