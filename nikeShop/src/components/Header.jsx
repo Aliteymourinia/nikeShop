@@ -1,17 +1,7 @@
 import React from "react";
 import { AppBar, Card, Toolbar, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faContactBook,
-  faContactCard,
-  faPerson,
-  faPersonBiking,
-  faPersonCirclePlus,
-  faSearch,
-  faSign,
-  faSignIn,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Nike.jsx";
@@ -43,7 +33,7 @@ const Header = () => {
       </nav>
       <div className="iconContainer text-lg hover:cursor-pointer flex gap-4 items-center">
         <Link to="/cart">
-          <FontAwesomeIcon icon={faCartShopping} />
+          <CartIcon />
         </Link>
 
         <Link to="/login">
