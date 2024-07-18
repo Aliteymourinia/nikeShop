@@ -113,9 +113,9 @@ const ProductDetails = ({ products }) => {
           <Alert
             variant="standard"
             severity="success"
-            className="fixed top-4 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded"
+            className="fixed w-96 top-4 left-1/2 transform -translate-x-1/2 rounded text-center "
           >
-            Successfully added to your favourite list!
+            Successfully added to your favourite list !
           </Alert>
         )}
       </div>
