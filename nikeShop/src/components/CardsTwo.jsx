@@ -7,12 +7,12 @@ import "../styles/Cards.css";
 
 const CardsTwo = ({ className }) => {
   return (
-    <div className={` ${className}`}>
+    <div className={`-ml-[70em] ${className}`}>
       {""}
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>
-      <section className="flex justify-center gap-3">
-        <div className="w-[300px]">
+      <section className="flex justify-center gap-3 items-center ">
+        <div className="">
           <a href="" className="">
             <img
               className="w-full h-full object-cover object-[50%,1%]"
@@ -25,21 +25,27 @@ const CardsTwo = ({ className }) => {
           <h3>£109.99</h3>
         </div>
         <div>
-          <a href="" className="relative image-container-two">
-            <img
-              className="w-full h-full object-cover object-[50%,1%]"
-              src={LightGreen}
-              alt="LightGreenShoe"
-            />
-          </a>
-        </div>
-        <div>
-          <a href="" className="relative image-container-two">
+          <a href="" className="">
             <img
               className="w-full h-full object-cover object-[50%,1%]"
               src={whiteAir}
               alt="whiteAirShoe"
             />
+          </a>
+          <h1>Nike Dunk Low Retro</h1>
+          <h2>Men's Shoe</h2>
+          <h3>£109.99</h3>
+        </div>
+        <div>
+          <a href="" className="">
+            <img
+              className="w-full h-full object-cover object-[50%,1%]"
+              src={LightGreen}
+              alt="LightGreenShoe"
+            />
+            <h1>Nike Dunk Low Retro</h1>
+            <h2>Men's Shoe</h2>
+            <h3>£109.99</h3>
           </a>
         </div>
       </section>
