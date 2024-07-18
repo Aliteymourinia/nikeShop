@@ -8,6 +8,7 @@ import AirGreen from "../assets/AirGreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FavouriteButton from "./FavouriteButton";
 import Alert from "@mui/material/Alert";
+import { useCart } from "../context/CartContext";
 
 const HeartIcon = (
   <svg

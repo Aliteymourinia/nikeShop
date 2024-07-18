@@ -14,31 +14,33 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route
-          path="men"
-          element={<ProductListing products={products.men} />}
-        />
-        <Route
-          path="women"
-          element={<ProductListing products={products.women} />}
-        />
-        <Route
-          path="kids"
-          element={<ProductListing products={products.kids} />}
-        />
-        <Route
-          path="customize"
-          element={<ProductListing products={products.customize} />}
-        />
-        <Route
-          path="product/:id"
-          element={<ProductDetails products={products} />}
-        />
-      </Route>
-    </Routes>
+    <CartProvider>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route
+            path="men"
+            element={<ProductListing products={products.men} />}
+          />
+          <Route
+            path="women"
+            element={<ProductListing products={products.women} />}
+          />
+          <Route
+            path="kids"
+            element={<ProductListing products={products.kids} />}
+          />
+          <Route
+            path="customize"
+            element={<ProductListing products={products.customize} />}
+          />
+          <Route
+            path="product/:id"
+            element={<ProductDetails products={products} />}
+          />
+        </Route>
+      </Routes>
+    </CartProvider>
   );
 }
 export default App;
