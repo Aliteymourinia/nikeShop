@@ -91,7 +91,7 @@ const ProductDetails = ({ products }) => {
         </table>
         <PrimaryButton
           text="Add to Bag"
-          className="mt-6 px-[90px] py-4 mx-1 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
+          className="mt-3 px-[90px] py-4 mx-1 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
         />
         <FavouriteButton
           text="Favourite"
