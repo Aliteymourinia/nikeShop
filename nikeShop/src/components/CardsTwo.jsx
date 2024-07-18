@@ -7,11 +7,11 @@ import "../styles/Cards.css";
 
 const CardsTwo = ({ className }) => {
   return (
-    <div className={`-ml-[70em] ${className}`}>
+    <div className={`-ml-[59em] ${className}`}>
       {""}
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>
-      <section className="flex justify-center gap-3 items-center ">
+      <section className="flex flex-row gap-3 items-center ">
         <div className="">
           <a href="" className="">
             <img
