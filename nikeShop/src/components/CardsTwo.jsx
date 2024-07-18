@@ -5,7 +5,7 @@ import LightGreen from "../assets/LightGreen.png";
 import whiteAir from "../assets/whiteAir.png";
 import "../styles/Cards.css";
 
-const CardsTwo = ({ className, products }) => {
+const CardsTwo = ({ className }) => {
   return (
     <div className={` ${className}`}>
       {" "}
@@ -20,7 +20,7 @@ const CardsTwo = ({ className, products }) => {
               alt="blueNikeShoe"
             />
           </a>
-          <h1>{}</h1>
+          <h1></h1>
         </div>
         <div>
           <a href="" className="relative image-container-two">
