@@ -86,13 +86,13 @@ const ProductDetails = ({ products }) => {
         alt={product.name}
         className="w-2/5 h-3/4 rounded-lg object-cover mx-8 "
       />
-      <div className="Description-Container -mt-1 ml-9 px-4 h-fit">
+      <div className="Description-Container relative -mt-1 ml-9 px-4 h-fit">
         <h2 className="text-2xl">{product.name}</h2>
         <p className="mt-1 text-gray-700">{product.gender}'s Shoes</p>
         <p className="text-lg font-semibold mt-1">${product.price}</p>
         <h1 className="pt-4">Select Size</h1>
 
-        <table className=" text-center border-gray-300 border-separate cursor-pointer border-spacing-1 -ml-4 ">
+        <table className=" absolute left-2 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 ">
           <tbody className="flex flex-wrap">
             {sizes.map((size, index) => (
               <tr key={index}>{renderSizeCell(size)}</tr>
@@ -101,7 +101,7 @@ const ProductDetails = ({ products }) => {
         </table>
         <PrimaryButton
           text="Add to Bag"
-          className="mt-3 px-[90px] py-4 -ml-1 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
+          className="mt-56 px-[90px] py-4 -ml-1 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
         />
         <FavouriteButton
           text="Favourite"
@@ -119,7 +119,7 @@ const ProductDetails = ({ products }) => {
           </Alert>
         )}
       </div>
-      <CardsTwo className="  mt-[40em]  " />
+      <CardsTwo className=" mt-[35em] " />
     </div>
   );
 };
