@@ -7,7 +7,7 @@ import CardsTwo from "./CardsTwo";
 import AirGreen from "../assets/AirGreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FavouriteButton from "./FavouriteButton";
-import Alert from "./Alert";
+import Alert from "@mui/material/Alert";
 
 const HeartIcon = (
   <svg
@@ -23,7 +23,7 @@ const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
-  
+
   const allProducts = {
     ...products.men,
     ...products.women,
@@ -111,9 +111,12 @@ const ProductDetails = ({ products }) => {
         />
         {showAlert && (
           <Alert
-            message="Successfully added to your favourite list!"
-            className="bg-green-500 text-white"
-          />
+            variant="standard"
+            severity="success"
+            className="fixed top-4 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded"
+          >
+            Successfully added to your favourite list!
+          </Alert>
         )}
       </div>
       <CardsTwo
