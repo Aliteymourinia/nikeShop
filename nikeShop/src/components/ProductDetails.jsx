@@ -22,7 +22,7 @@ const HeartIcon = (
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const [selectedSize, setSelectedSize] = useState(null);
-  
+
   const allProducts = {
     ...products.men,
     ...products.women,
@@ -72,6 +72,12 @@ const ProductDetails = ({ products }) => {
     "US10",
   ];
 
+  const handleFavouriteClick = () => {
+    setShowAlert(true);
+    setTimeout(() => {
+      setShowAlert(false);
+    }, 3000);
+  };
   return (
     <div className="ProductDetails flex p-3 pl-28 -mt-3">
       <img
