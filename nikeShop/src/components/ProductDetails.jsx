@@ -22,6 +22,7 @@ const HeartIcon = (
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
+  const { addToCart } = useCart();
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
 
