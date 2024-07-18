@@ -22,7 +22,8 @@ const HeartIcon = (
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const [selectedSize, setSelectedSize] = useState(null);
-
+  const [showAlert, setShowAlert] = useState(false);
+  
   const allProducts = {
     ...products.men,
     ...products.women,
@@ -105,8 +106,15 @@ const ProductDetails = ({ products }) => {
         <FavouriteButton
           text="Favourite"
           icon={HeartIcon}
+          onClick={handleFavouriteClick}
           className="mt-4 px-[95px] py-4 mx-1 rounded-full bg-white text-black outline outline-gray-300 scale-110 hover:outline-[1px] hover:bg-white hover:text-gray-950 text-nowrap"
         />
+        {showAlert && (
+          <Alert
+            message="Successfully added to your favourite list!"
+            className="bg-green-500 text-white"
+          />
+        )}
       </div>
       <CardsTwo
         className=" w-[1200px] h-[350px] mt-[37em] -ml-[60em] "
