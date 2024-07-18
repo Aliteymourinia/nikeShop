@@ -1,11 +1,11 @@
 import React from "react";
 import SecondaryButton from "../components/SecondaryButton";
-import Hoodie from "../assets/Hoodie.jpg";
-import WhiteCap from "../assets/WhiteCap.jpg";
-import Accessories from "../assets/Accessories.png";
+import blueNike from "../assets/blueNike.png";
+import LightGreen from "../assets/LightGreen.png";
+import whiteAir from "../assets/whiteAir.png";
 import "../styles/Cards.css";
 
-const CardsTwo = ({ className,  }) => {
+const CardsTwo = ({ className }) => {
   return (
     <div className={` ${className}`}>
       {" "}
@@ -14,8 +14,8 @@ const CardsTwo = ({ className,  }) => {
         <a href="" className="relative image-container-two">
           <img
             className="w-full h-full object-cover object-[50%,1%]"
-            src={Hoodie}
-            alt="Clothes"
+            src={blueNike}
+            alt="blueNikeShoe"
           />
           <div className="absolute flex flex-col bottom-[5em] left-1/4 transform -translate-x-1/2">
             <h1 className="text-white text-3xl pt-5 ">Clothes</h1>
