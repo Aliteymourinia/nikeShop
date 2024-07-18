@@ -43,7 +43,7 @@ const ProductDetails = ({ products }) => {
     <td
       key={size}
       className={`cursor-pointer p-2 rounded-md text-gray-800 border border-gray-300 ${
-        selectedSize === size ? "outline text-white" : ""
+        selectedSize === size ? "outline " : ""
       }`}
       onClick={() => handleSizeClick(size)}
     >
