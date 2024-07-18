@@ -7,6 +7,9 @@ import Home from "./pages/Home";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
 import ProductDetails from "./components/ProductDetails";
+import CartPage from "./components/CartPage";
+import { CartProvider } from "./context/CartContext";
+import CartIcon from "./components/CartIcon";
 import Layout from "./components/Layout";
 
 function App() {
