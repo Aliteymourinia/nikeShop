@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 import "../styles/ProductDetails.css";
 const Footer = ({ className }) => {
   return (
-    <footer className={`footer-section ${className}`}>
+    <footer className={`footer-section -mt-10 ${className}`}>
       <div className="container">
         <div className="footer-row "></div>
         <div className="footer-content ">
