@@ -17,12 +17,12 @@ const CardsTwo = ({ className }) => {
         <div className="">
           <a href="" className="">
             <img
-              className="image-container object-cover object-[10%,20%] "
+              className="image-container object-cover "
               src={Hoodie}
               alt=""
             />
             <div className="absolute -translate-y-20 translate-x-3">
-              <h1>Hoodie</h1>
+              <h1 className="">Hoodie</h1>
               <SecondaryButton text="Shop" />
             </div>
           </a>
@@ -35,7 +35,7 @@ const CardsTwo = ({ className }) => {
               alt=""
             />
             <div className="absolute -translate-y-20 translate-x-3">
-              <h1>Cap</h1>
+              <h1 className="">Cap</h1>
               <SecondaryButton text="Shop" />
             </div>
           </a>
@@ -48,7 +48,7 @@ const CardsTwo = ({ className }) => {
               alt=""
             />
             <div className="absolute -translate-y-20 translate-x-3">
-              <h1>Accessories</h1>
+              <h1 className="">Accessories</h1>
               <SecondaryButton text="Shop" />
             </div>
           </a>
