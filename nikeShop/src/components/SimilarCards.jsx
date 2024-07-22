@@ -10,13 +10,18 @@ import "../styles/Cards.css";
 
 const CardsTwo = ({ className }) => {
   return (
-    <div className={` ${className}`}>
+    <div className={`-ml-[59em] ${className}`}>
       {""}
       {/* The above className is for pass props to another components */}
-      <section className="flex ">
+      <h1 className="text-2xl capitalize mb-9">You might also like</h1>
+      <section className="flex flex-row gap-3 items-center ">
         <div className="">
           <a href="" className="">
-            <img className="" src={Hoodie} alt="" />
+            <img
+              className="w-full h-full object-cover object-[50%,1%]"
+              src={Hoodie}
+              alt=""
+            />
           </a>
           <h1>Nike Dunk Low Retro</h1>
           <h2 className="text-gray-500">Men's Shoe</h2>
@@ -24,7 +29,11 @@ const CardsTwo = ({ className }) => {
         </div>
         <div>
           <a href="" className="">
-            <img className="" src={WhiteCap} alt="" />
+            <img
+              className="w-full h-full object-cover object-[50%,1%]"
+              src={WhiteCap}
+              alt=""
+            />
           </a>
           <h1>Nike Air Force Low</h1>
           <h2 className="text-gray-500">Men's Shoe</h2>
@@ -32,7 +41,11 @@ const CardsTwo = ({ className }) => {
         </div>
         <div>
           <a href="" className="">
-            <img className="" src={Accessories} alt="" />
+            <img
+              className="w-full h-full object-cover object-[50%,1%]"
+              src={Accessories}
+              alt=""
+            />
             <h1>Nike Dunk Low Green</h1>
             <h2 className="text-gray-500">Men's Shoe</h2>
             <h3></h3>
