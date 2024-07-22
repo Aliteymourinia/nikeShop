@@ -8,11 +8,11 @@ import "../styles/ProductDetails.css";
 
 const SimilarCards = ({ className }) => {
   return (
-    <div className={`z-10 absolute top-[43em]  ${className}`}>
+    <div className={` absolute top-[43em] right-1 p-6  ${className}`}>
       {""}
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>
-      <section className="flex gap-2  ">
+      <section className="flex gap-3  ">
         <div className="">
           <a href="" className="">
             <img className="" src={blueNike} alt="" />
