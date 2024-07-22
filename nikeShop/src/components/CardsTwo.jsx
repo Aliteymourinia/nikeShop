@@ -21,8 +21,8 @@ const CardsTwo = ({ className }) => {
               src={Hoodie}
               alt="Hoodie"
             />
-            <div className="absolute -translate-y-20 translate-x-3">
-              <h1 className="text-white text-2xl">Hoodie</h1>
+            <div className="absolute -translate-y-20 translate-x-3 flex flex-col gap-5 -mt-10 mx-7">
+              <h1 className="text-white text-2xl mx-2">Hoodie</h1>
               <SecondaryButton text="Shop" />
             </div>
           </a>
@@ -34,8 +34,8 @@ const CardsTwo = ({ className }) => {
               src={WhiteCap}
               alt="WhiteCap"
             />
-            <div className="absolute -translate-y-20 translate-x-3">
-              <h1 className="text-white text-2xl">Cap</h1>
+            <div className="absolute -translate-y-20 translate-x-3 flex flex-col items-center gap-5 -mt-10">
+              <h1 className="text-white text-3xl">Cap</h1>
               <SecondaryButton text="Shop" />
             </div>
           </a>
