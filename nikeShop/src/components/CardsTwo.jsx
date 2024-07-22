@@ -17,10 +17,11 @@ const CardsTwo = ({ className }) => {
         <div className="">
           <a href="" className="">
             <img
-              className="image-container object-cover "
+              className="image-container object-cover object-[10%,20%] "
               src={Hoodie}
               alt=""
             />
+            <SecondaryButton text="Shop" />
           </a>
         </div>
         <div>
@@ -30,6 +31,7 @@ const CardsTwo = ({ className }) => {
               src={WhiteCap}
               alt=""
             />
+            <SecondaryButton text="Shop" />
           </a>
         </div>
         <div>
@@ -39,6 +41,7 @@ const CardsTwo = ({ className }) => {
               src={Accessories}
               alt=""
             />
+            <SecondaryButton text="Shop" />
           </a>
         </div>
       </section>
