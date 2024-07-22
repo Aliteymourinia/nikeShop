@@ -4,6 +4,8 @@ import blueNike from "../assets/blueNike.png";
 import LightGreen from "../assets/LightGreen.png";
 import whiteAir from "../assets/whiteAir.png";
 import "../styles/Cards.css";
+import "../styles/ProductDetails.css";
+import Footer from "./Footer";
 
 const SimilarCards = ({ className }) => {
   return (
