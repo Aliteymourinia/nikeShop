@@ -21,8 +21,10 @@ const CardsTwo = ({ className }) => {
               src={Hoodie}
               alt=""
             />
-            <h1>Hoodie</h1>
-            <SecondaryButton text="Shop" />
+            <div className="absolute -translate-y-20 translate-x-3">
+              <h1>Hoodie</h1>
+              <SecondaryButton text="Shop" />
+            </div>
           </a>
         </div>
         <div>
@@ -32,19 +34,23 @@ const CardsTwo = ({ className }) => {
               src={WhiteCap}
               alt=""
             />
-            <h1>Cap</h1>
-            <SecondaryButton text="Shop" />
+            <div className="absolute -translate-y-20 translate-x-3">
+              <h1>Cap</h1>
+              <SecondaryButton text="Shop" />
+            </div>
           </a>
         </div>
         <div>
-          <a href="" className="">
+          <a href="" className="relative">
             <img
               className="image-container object-cover"
               src={Accessories}
               alt=""
             />
-            <h1>Accessories</h1>
-            <SecondaryButton text="Shop" />
+            <div className="absolute -translate-y-20 translate-x-3">
+              <h1>Accessories</h1>
+              <SecondaryButton text="Shop" />
+            </div>
           </a>
         </div>
       </section>
