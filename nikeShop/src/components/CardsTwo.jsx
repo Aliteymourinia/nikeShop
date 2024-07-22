@@ -14,10 +14,10 @@ const CardsTwo = ({ className }) => {
       {""}
       {/* The above className is for pass props to another components */}
       <section className="flex gap-3 ">
-        <div className="">
+        <div className="relative">
           <a href="" className="">
             <img
-              className=" image-container-two object-cover  "
+              className=" image-container-two object-fill "
               src={Hoodie}
               alt="Hoodie"
             />
@@ -41,7 +41,7 @@ const CardsTwo = ({ className }) => {
           </a>
         </div>
         <div>
-          <a href="" className="relative">
+          <a href="" className="">
             <img
               className="image-container-two object-cover"
               src={Accessories}
