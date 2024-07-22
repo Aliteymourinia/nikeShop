@@ -131,8 +131,8 @@ const ProductDetails = ({ products }) => {
             Successfully added to your favourite list !
           </Alert>
         )}
+        <SimilarCards className="" />
       </div>
-      <SimilarCards className="" />
     </div>
   );
 };
