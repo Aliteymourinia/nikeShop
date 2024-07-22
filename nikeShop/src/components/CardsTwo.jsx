@@ -21,6 +21,7 @@ const CardsTwo = ({ className }) => {
               src={Hoodie}
               alt=""
             />
+            <h1>Hoodie</h1>
             <SecondaryButton text="Shop" />
           </a>
         </div>
@@ -31,6 +32,7 @@ const CardsTwo = ({ className }) => {
               src={WhiteCap}
               alt=""
             />
+            <h1>Cap</h1>
             <SecondaryButton text="Shop" />
           </a>
         </div>
@@ -41,6 +43,7 @@ const CardsTwo = ({ className }) => {
               src={Accessories}
               alt=""
             />
+            <h1>Accessories</h1>
             <SecondaryButton text="Shop" />
           </a>
         </div>
