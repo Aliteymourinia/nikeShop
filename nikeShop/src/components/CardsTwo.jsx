@@ -17,7 +17,7 @@ const CardsTwo = ({ className }) => {
         <div className="">
           <a href="" className="">
             <img
-              className=" image-container-two object-cover object-left-bottom   "
+              className=" image-container-two object-cover  "
               src={Hoodie}
               alt=""
             />
@@ -43,7 +43,7 @@ const CardsTwo = ({ className }) => {
         <div>
           <a href="" className="relative">
             <img
-              className=" image-container-two object-cover"
+              className="image-container-two object-cover"
               src={Accessories}
               alt=""
             />
