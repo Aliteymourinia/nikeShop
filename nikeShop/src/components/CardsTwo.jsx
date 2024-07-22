@@ -22,8 +22,8 @@ const CardsTwo = ({ className }) => {
               alt="Hoodie"
             />
             <div className="absolute -translate-y-20 translate-x-3 flex flex-col gap-5 -mt-10 mx-7">
-              <h1 className="text-white text-2xl mx-2">Hoodie</h1>
-              <SecondaryButton text="Shop" />
+              <h1 className="text-white text-3xl mx-2">Hoodie</h1>
+              <SecondaryButton text="Shop" className="ml-1" />
             </div>
           </a>
         </div>
@@ -34,9 +34,9 @@ const CardsTwo = ({ className }) => {
               src={WhiteCap}
               alt="WhiteCap"
             />
-            <div className="absolute -translate-y-20 translate-x-3 flex flex-col items-center gap-5 -mt-10">
+            <div className="absolute -translate-y-20 translate-x-3 flex flex-col gap-5 -mt-10 mx-3">
               <h1 className="text-white text-3xl">Cap</h1>
-              <SecondaryButton text="Shop" />
+              <SecondaryButton text="Shop" className="-ml-1" />
             </div>
           </a>
         </div>
@@ -47,9 +47,9 @@ const CardsTwo = ({ className }) => {
               src={Accessories}
               alt="Accessories"
             />
-            <div className="absolute -translate-y-20 translate-x-3">
-              <h1 className="text-white text-2xl">Accessories</h1>
-              <SecondaryButton text="Shop" />
+            <div className="absolute -translate-y-20 translate-x-3 flex flex-col gap-5 -mt-10 mx-3 ">
+              <h1 className="text-white text-3xl">Accessories</h1>
+              <SecondaryButton text="Shop" className="-ml-1" />
             </div>
           </a>
         </div>
