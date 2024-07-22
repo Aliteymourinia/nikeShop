@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 import "../styles/ProductDetails.css";
 const Footer = () => {
   return (
-    <footer className="footer-section" id="Footer-Section">
+    <footer className="footer-section">
       <div className="container">
         <div className="footer-row "></div>
         <div className="footer-content ">
