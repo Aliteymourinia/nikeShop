@@ -96,7 +96,7 @@ const ProductDetails = ({ products }) => {
       <img
         src={product.imageURL}
         alt={product.name}
-        className="w-2/5 h-3/4 rounded-lg object-cover mx-8 "
+        className="w-2/5 h-3/4 rounded-lg object-cover mx-8"
       />
       <div className="Description-Container relative -mt-1 ml-9 px-4 h-fit">
         <h2 className="text-2xl">{product.name}</h2>
@@ -106,7 +106,7 @@ const ProductDetails = ({ products }) => {
 
         <table className=" absolute left-2 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 ">
           <tbody className="flex flex-wrap">
-            {sizes.map((size, index) => (
+            {sizes.map((size,index) => (
               <tr key={index}>{renderSizeCell(size)}</tr>
             ))}
           </tbody>
@@ -131,8 +131,8 @@ const ProductDetails = ({ products }) => {
             Successfully added to your favourite list !
           </Alert>
         )}
-        <SimilarCards className="" />
       </div>
+      <SimilarCards className="" />
     </div>
   );
 };

@@ -7,22 +7,22 @@ import "../styles/Cards.css";
 
 const SimilarCards = ({ className }) => {
   return (
-    <div className={` ${className}`}>
+    <div className={`z-10 absolute bottom-0 -mb-[38em] ${className}`}>
       {""}
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>
-      <section className="">
+      <section className="flex gap-2  ">
         <div className="">
           <a href="" className="">
             <img className="" src={blueNike} alt="" />
           </a>
           <h1>Nike Dunk Low Retro</h1>
-          <h2></h2>
+          <h2>Men's Shoes</h2>
           <h3>$89.99</h3>
         </div>
         <div>
           <a href="" className="">
-            <img className="" src alt="" />
+            <img className="" src={whiteAir} alt="" />
           </a>
           <h1>Nike Air Force Low</h1>
           <h2>Men's shoes</h2>

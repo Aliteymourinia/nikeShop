@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/Footer.css";
 
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
     <footer className="footer-section">
+      {className}
       <div className="container">
-        <div className="footer-row pb-5 "></div>
+        <div className="footer-row "></div>
         <div className="footer-content ">
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="footer-widget">
