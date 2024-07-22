@@ -8,7 +8,7 @@ import "../styles/ProductDetails.css";
 
 const SimilarCards = ({ className }) => {
   return (
-    <div className={`z-10 absolute bottom-0 -mb-[38em] ${className}`}>
+    <div className={`z-10 absolute top-[43em]  ${className}`}>
       {""}
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>

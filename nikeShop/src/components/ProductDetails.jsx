@@ -92,7 +92,7 @@ const ProductDetails = ({ products }) => {
   };
 
   return (
-    <div className="ProductDetails flex p-3 pl-28 -mt-3 pb-[47em]">
+    <div className="ProductDetails flex p-3 pl-28 -mt-3 pb-[49em]">
       <img
         src={product.imageURL}
         alt={product.name}
