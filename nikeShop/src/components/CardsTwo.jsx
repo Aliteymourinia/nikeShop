@@ -19,7 +19,7 @@ const CardsTwo = ({ className }) => {
             <img
               className=" image-container-two object-cover  "
               src={Hoodie}
-              alt=""
+              alt="Hoodie"
             />
             <div className="absolute -translate-y-20 translate-x-3">
               <h1 className="text-white text-2xl">Hoodie</h1>
@@ -32,7 +32,7 @@ const CardsTwo = ({ className }) => {
             <img
               className=" image-container-two object-cover"
               src={WhiteCap}
-              alt=""
+              alt="WhiteCap"
             />
             <div className="absolute -translate-y-20 translate-x-3">
               <h1 className="text-white text-2xl">Cap</h1>
@@ -45,7 +45,7 @@ const CardsTwo = ({ className }) => {
             <img
               className="image-container-two object-cover"
               src={Accessories}
-              alt=""
+              alt="Accessories"
             />
             <div className="absolute -translate-y-20 translate-x-3">
               <h1 className="text-white text-2xl">Accessories</h1>
