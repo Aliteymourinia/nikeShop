@@ -3,12 +3,12 @@ import { useParams } from "react-router-dom";
 import "../styles/ProductDetails.css";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
-import CardsTwo from "./CardsTwo";
 import AirGreen from "../assets/AirGreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FavouriteButton from "./FavouriteButton";
 import Alert from "@mui/material/Alert";
 import { useCart } from "../context/CartContext";
+import SimilarCards from "./SimilarCards";
 
 const HeartIcon = (
   <svg
@@ -132,7 +132,7 @@ const ProductDetails = ({ products }) => {
           </Alert>
         )}
       </div>
-      <CardsTwo className=" mt-[35em] " />
+      <SimilarCards className="" />
     </div>
   );
 };
