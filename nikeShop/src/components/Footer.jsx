@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/Footer.css";
 import "../styles/ProductDetails.css";
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
-    <footer className="footer-section">
+    <footer className={`footer-section ${className}`}>
       <div className="container">
         <div className="footer-row "></div>
         <div className="footer-content ">
