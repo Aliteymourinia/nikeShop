@@ -11,29 +11,29 @@ const SimilarCards = ({ className }) => {
       {""}
       {/* The above className is for pass props to another components */}
       <h1 className="text-2xl capitalize mb-9">You might also like</h1>
-      <section className=" ">
+      <section className="">
         <div className="">
           <a href="" className="">
-            <img className="" alt="" />
+            <img className="" src={blueNike} alt="" />
           </a>
           <h1>Nike Dunk Low Retro</h1>
           <h2></h2>
-          <h3>$109.99</h3>
+          <h3>$89.99</h3>
         </div>
         <div>
           <a href="" className="">
             <img className="" src alt="" />
           </a>
           <h1>Nike Air Force Low</h1>
-          <h2></h2>
-          <h3></h3>
+          <h2>Men's shoes</h2>
+          <h3>$109.99</h3>
         </div>
         <div>
           <a href="" className="">
-            <img className="" src alt="" />
+            <img className="" src={LightGreen} alt="" />
             <h1>Nike Dunk Low Green</h1>
-            <h2></h2>
-            <h3></h3>
+            <h2>Men's Shoes</h2>
+            <h3>$129.99</h3>
           </a>
         </div>
       </section>
