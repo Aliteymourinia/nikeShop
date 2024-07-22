@@ -17,24 +17,31 @@ const SimilarCards = ({ className }) => {
           <a href="" className="">
             <img className="" src={blueNike} alt="" />
           </a>
-          <h1>Nike Dunk Low Retro</h1>
-          <h2>Men's Shoes</h2>
-          <h3>$89.99</h3>
+          <div className="p-2">
+            <h1>Nike Dunk Low Retro</h1>
+            <h2>Men's Shoes</h2>
+            <h3>$89.99</h3>
+          </div>
         </div>
         <div>
           <a href="" className="">
             <img className="" src={whiteAir} alt="" />
           </a>
-          <h1>Nike Air Force Low</h1>
-          <h2>Men's shoes</h2>
-          <h3>$109.99</h3>
+          <div className="p-2">
+            <h1>Nike Air Force Low</h1>
+            <h2>Men's shoes</h2>
+            <h3>$109.99</h3>
+          </div>
         </div>
         <div>
           <a href="" className="">
             <img className="" src={LightGreen} alt="" />
-            <h1>Nike Dunk Low Green</h1>
-            <h2>Men's Shoes</h2>
-            <h3>$129.99</h3>
+
+            <div className="p-2">
+              <h1>Nike Dunk Low Green</h1>
+              <h2>Men's Shoes</h2>
+              <h3>$129.99</h3>
+            </div>
           </a>
         </div>
       </section>
