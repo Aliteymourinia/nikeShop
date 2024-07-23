@@ -81,7 +81,6 @@ const ProductDetails = ({ products }) => {
       setShowAlert(false);
     }, 3000);
   };
-
   const handleAddToBagClick = () => {
     if (selectedSize) {
       addToCart({ ...product, size: selectedSize });
@@ -106,7 +105,7 @@ const ProductDetails = ({ products }) => {
 
         <table className=" absolute left-2 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 ">
           <tbody className="flex flex-wrap">
-            {sizes.map((size,index) => (
+            {sizes.map((size, index) => (
               <tr key={index}>{renderSizeCell(size)}</tr>
             ))}
           </tbody>
@@ -136,5 +135,4 @@ const ProductDetails = ({ products }) => {
     </div>
   );
 };
-
 export default ProductDetails;
