@@ -3,9 +3,10 @@ import { useCart } from "../context/CartContext";
 
 const CartIcon = () => {
   const { cartItemCount } = useCart();
-
+  console.log("CartIcon rendered, cartItemCount:", cartItemCount);
+  
   return (
-    <div className="relative">
+    <div className="cart-icon relative">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

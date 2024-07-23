@@ -1,22 +1,9 @@
-// this component will hold the cart state and provide functions to modify it.
-import React, { createContext, useState, useContext } from "react";
 
-const CartContext = createContext();
+// cartContext.js
+import { createContext, useContext } from "react";
 
-export const useCart = () => useContext(CartContext);
+export const CartContext = createContext();
 
-export const CartProvider = ({ children }) => {
-  const [cartItems, setCartItems] = useState([]);
-
-  const addToCart = (item) => {
-    setCartItems((prevItems) => [...prevItems, item]);
-  };
-
-  const cartItemCount = cartItems.length;
-
-  return (
-    <CartContext.Provider value={{ cartItems, addToCart, cartItemCount }}>
-      {children}
-    </CartContext.Provider>
-  );
+export const useCart = () => {
+  return useContext(CartContext);
 };

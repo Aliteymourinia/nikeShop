@@ -38,10 +38,12 @@ const ProductDetails = ({ products }) => {
   );
 
   if (!product) {
+    console.log("Product not found for id:", id);
     return <div>Product not found</div>;
   }
 
   const handleSizeClick = (size) => {
+    console.log("Size selected:", size);
     setSelectedSize(size);
   };
   const renderSizeCell = (size) => (
@@ -81,12 +83,15 @@ const ProductDetails = ({ products }) => {
       setShowAlert(false);
     }, 3000);
   };
-  
+
   const handleAddToBagClick = () => {
     if (selectedSize) {
+      console.log("Adding to bag:", product, "with size:", selectedSize);
       addToCart({ ...product, size: selectedSize });
-      handleFavouriteClick();
+      setShowAlert(true);
+      setTimeout(() => setShowAlert(false), 3000);
     } else {
+      console.log("No size selected");
       alert("Please select a size before adding to the bag.");
     }
   };

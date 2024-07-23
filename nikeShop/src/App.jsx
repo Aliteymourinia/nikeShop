@@ -14,6 +14,7 @@ import Layout from "./components/Layout";
 import Header from "./components/Header";
 
 function App() {
+  console.log("App rendered");
   return (
     <CartProvider>
       <Routes>
