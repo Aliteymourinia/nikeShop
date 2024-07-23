@@ -1,10 +1,10 @@
 import React from "react";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../context/useCart";
 
 const CartIcon = () => {
   const { cartItemCount } = useCart();
   console.log("CartIcon rendered, cartItemCount:", cartItemCount);
-  
+
   return (
     <div className="cart-icon relative">
       <svg

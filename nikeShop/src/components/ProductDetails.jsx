@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../context/useCart";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
-import AirGreen from "../assets/AirGreen.png";
 import FavouriteButton from "./FavouriteButton";
-import Alert from "@mui/material/Alert";
 import SimilarCards from "./SimilarCards";
+import Alert from "@mui/material/Alert";
 import "../styles/ProductDetails.css";
 
 const HeartIcon = (
