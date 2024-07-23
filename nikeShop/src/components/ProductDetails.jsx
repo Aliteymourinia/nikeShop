@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
+import { useCart } from "../context/CartContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/ProductDetails.css";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
 import AirGreen from "../assets/AirGreen.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import FavouriteButton from "./FavouriteButton";
 import Alert from "@mui/material/Alert";
-import { useCart } from "../context/CartContext";
 import SimilarCards from "./SimilarCards";
 
 const HeartIcon = (
