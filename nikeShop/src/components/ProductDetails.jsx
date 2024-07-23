@@ -81,6 +81,7 @@ const ProductDetails = ({ products }) => {
       setShowAlert(false);
     }, 3000);
   };
+  
   const handleAddToBagClick = () => {
     if (selectedSize) {
       addToCart({ ...product, size: selectedSize });
