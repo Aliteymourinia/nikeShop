@@ -7,19 +7,15 @@ export const useCart = () => useContext(CartContext);
 
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
-  const [notificationCount, setNotificationCount] = useState(0);
 
   const addToCart = (item) => {
-    setCartItems([...cartItems, item]);
-    setNotificationCount(notificationCount + 1);
+    setCartItems((prevItems) => [...prevItems, item]);
   };
 
-  const clearNotification = () => setNotificationCount(0);
+  const cartItemCount = cartItems.length;
 
   return (
-    <CartContext.Provider
-      value={{ cartItems, addToCart, notificationCount, clearNotification }}
-    >
+    <CartContext.Provider value={{ cartItems, addToCart, cartItemCount }}>
       {children}
     </CartContext.Provider>
   );
