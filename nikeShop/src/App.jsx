@@ -1,8 +1,5 @@
 import { Component, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./styles/App.css";
-import "./styles/index.css";
-import "./styles/Fonts.css";
 import Home from "./pages/Home";
 import ProductListing from "./components/ProductListing";
 import products from "./productsData";
@@ -12,6 +9,9 @@ import { CartProvider } from "./context/CartContext";
 import CartIcon from "./components/CartIcon";
 import Layout from "./components/Layout";
 import Header from "./components/Header";
+import "./styles/App.css";
+import "./styles/index.css";
+import "./styles/Fonts.css";
 
 function App() {
   console.log("App rendered");
