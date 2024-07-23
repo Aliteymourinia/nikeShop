@@ -1,8 +1,5 @@
 import React from "react";
 import { useCart } from "../context/CartContext";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate } from "react-router-dom";
 
 const CartIcon = () => {
   const { notificationCount, clearNotification } = useCart();
