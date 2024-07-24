@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useCart } from "../context/useCart";
+import { useCart } from "../../../context/useCart";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
