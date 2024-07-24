@@ -21,7 +21,9 @@ const HeartIcon = (
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
+  const { addToCart } = useCart();
   const [selectedSize, setSelectedSize] = useState(null);
+  const [quantity, setQuantity] = useState(1);
   const [showAlert, setShowAlert] = useState(false);
 
   const allProducts = {
@@ -44,17 +46,6 @@ const ProductDetails = ({ products }) => {
     console.log("Size selected:", size);
     setSelectedSize(size);
   };
-  const renderSizeCell = (size) => (
-    <td
-      key={size}
-      className={`cursor-pointer p-2 rounded-md text-gray-800 border border-gray-300 ${
-        selectedSize === size ? "outline " : ""
-      }`}
-      onClick={() => handleSizeClick(size)}
-    >
-      {size}
-    </td>
-  );
 
   const sizes = [
     "US 2.5",
@@ -84,13 +75,24 @@ const ProductDetails = ({ products }) => {
 
   const handleAddToBagClick = () => {
     if (selectedSize) {
-      console.log("Adding to bag:", product, "with size:", selectedSize);
+      console.log(
+        "Adding to bag:",
+        product,
+        "with size:",
+        selectedSize,
+        "quantity:",
+        quantity
+      );
+      addToCart({ ...product, size: selectedSize, quantity });
       setShowAlert(true);
       setTimeout(() => setShowAlert(false), 3000);
     } else {
       console.log("No size selected");
       alert("Please select a size before adding to the bag.");
     }
+  };
+  const handleQuantityChange = (event) => {
+    setQuantity(parseInt(event.target.value));
   };
 
   return (
@@ -109,10 +111,33 @@ const ProductDetails = ({ products }) => {
         <table className=" absolute left-2 text-center border-gray-300 border-separate cursor-pointer border-spacing-1 ">
           <tbody className="flex flex-wrap">
             {sizes.map((size, index) => (
-              <tr key={index}>{renderSizeCell(size)}</tr>
+              <tr key={index}>
+                <td
+                  key={size}
+                  className={`cursor-pointer p-2 rounded-md text-gray-800 border border-gray-300 ${
+                    selectedSize === size ? "outline" : ""
+                  }`}
+                  onClick={() => handleSizeClick(size)}
+                >
+                  {size}
+                </td>
+              </tr>
             ))}
           </tbody>
         </table>
+        <div className="mt-4">
+          <label htmlFor="quantity">Quantity:</label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            value={quantity}
+            onChange={handleQuantityChange}
+            min="1"
+            className="ml-2 border border-gray-300 rounded p-1"
+          />
+        </div>
+
         <PrimaryButton
           text="Add to Bag"
           onClick={handleAddToBagClick}
@@ -134,7 +159,7 @@ const ProductDetails = ({ products }) => {
           </Alert>
         )}
       </div>
-      <SimilarCards className="" />
+      <SimilarCards />
     </div>
   );
 };
