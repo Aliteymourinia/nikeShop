@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useCart } from "../contexts/useCart";
 const CartIcon = () => {
   const { cartItemCount } = useCart();
   console.log("CartIcon rendered, cartItemCount:", cartItemCount);
