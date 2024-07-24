@@ -21,7 +21,6 @@ const HeartIcon = (
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
-  const { addToCart } = useCart();
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
 
@@ -86,7 +85,6 @@ const ProductDetails = ({ products }) => {
   const handleAddToBagClick = () => {
     if (selectedSize) {
       console.log("Adding to bag:", product, "with size:", selectedSize);
-      addToCart({ ...product, size: selectedSize });
       setShowAlert(true);
       setTimeout(() => setShowAlert(false), 3000);
     } else {
