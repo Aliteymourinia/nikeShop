@@ -2,8 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
-import CartIcon from "./CartIcon";
-import Cart from "./Cart";
+
 
 const Layout = () => {
   return (
@@ -12,7 +11,6 @@ const Layout = () => {
       <div className="flex-grow">
         <Outlet />
       </div>
-      <Cart />
       <Footer />
     </div>
   );

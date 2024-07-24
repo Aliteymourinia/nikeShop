@@ -1,9 +1,6 @@
 import React from "react";
-import { useCart } from "../contexts/useCart";
-const CartIcon = () => {
-  const { cartItemCount } = useCart();
-  console.log("CartIcon rendered, cartItemCount:", cartItemCount);
 
+const CartIcon = () => {
   return (
     <div className="cart-icon relative">
       <svg
@@ -20,11 +17,6 @@ const CartIcon = () => {
           d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 8m10-8l2 8m-6-4h4"
         />
       </svg>
-      {cartItemCount > 0 && (
-        <span className="absolute -top-2 -right-2 rounded-full bg-red-500 text-white text-xs px-2 py-1">
-          {cartItemCount}
-        </span>
-      )}
     </div>
   );
 };

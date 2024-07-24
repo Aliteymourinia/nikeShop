@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useCart } from "../contexts/useCart";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PrimaryButton from "./PrimaryButton";
 import SecondaryButton from "./SecondaryButton";
@@ -21,7 +20,6 @@ const HeartIcon = (
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
-  const { addToCart } = useCart();
   const [selectedSize, setSelectedSize] = useState(null);
   const [quantity, setQuantity] = useState(1);
   const [showAlert, setShowAlert] = useState(false);
