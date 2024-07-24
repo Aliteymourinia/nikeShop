@@ -7,6 +7,7 @@ import SecondaryButton from "../components/SecondaryButton";
 import VideoComponent from "../components/Video";
 import "../styles/Cards.css";
 import CardsTwo from "./CardsTwo";
+
 const Cards = () => {
   return (
     <div>

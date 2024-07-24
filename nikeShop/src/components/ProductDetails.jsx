@@ -21,7 +21,6 @@ const HeartIcon = (
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
   const [selectedSize, setSelectedSize] = useState(null);
-  const [quantity, setQuantity] = useState(1);
   const [showAlert, setShowAlert] = useState(false);
 
   const allProducts = {
@@ -78,19 +77,14 @@ const ProductDetails = ({ products }) => {
         product,
         "with size:",
         selectedSize,
-        "quantity:",
-        quantity
+        "quantity:"
       );
-      addToCart({ ...product, size: selectedSize, quantity });
       setShowAlert(true);
       setTimeout(() => setShowAlert(false), 3000);
     } else {
       console.log("No size selected");
       alert("Please select a size before adding to the bag.");
     }
-  };
-  const handleQuantityChange = (event) => {
-    setQuantity(parseInt(event.target.value));
   };
 
   return (
@@ -123,18 +117,6 @@ const ProductDetails = ({ products }) => {
             ))}
           </tbody>
         </table>
-        <div className="mt-4">
-          <label htmlFor="quantity">Quantity:</label>
-          <input
-            type="number"
-            id="quantity"
-            name="quantity"
-            value={quantity}
-            onChange={handleQuantityChange}
-            min="1"
-            className="ml-2 border border-gray-300 rounded p-1"
-          />
-        </div>
 
         <PrimaryButton
           text="Add to Bag"
