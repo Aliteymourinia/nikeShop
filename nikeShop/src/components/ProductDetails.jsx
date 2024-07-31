@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PrimaryButton from "./PrimaryButton";
@@ -7,6 +7,7 @@ import FavouriteButton from "./FavouriteButton";
 import SimilarCards from "./SimilarCards";
 import Alert from "@mui/material/Alert";
 import "../styles/ProductDetails.css";
+import { CartContext } from "../Context/Cart";
 
 const HeartIcon = (
   <svg
@@ -20,6 +21,8 @@ const HeartIcon = (
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
+  const { cart, removeItemFromCart, addItemToCart } = useContext(CartContext);
+
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
 
@@ -79,7 +82,7 @@ const ProductDetails = ({ products }) => {
         selectedSize,
         "quantity:"
       );
-      
+      addItemToCart(product);
       setShowAlert(true);
       setTimeout(() => setShowAlert(false), 3000);
     } else {

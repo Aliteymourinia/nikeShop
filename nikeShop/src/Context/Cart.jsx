@@ -6,39 +6,10 @@ const CartContext = createContext();
 
 // Create a provider component
 const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState({
-    items: [],
-    totalAmount: 0,
-  });
+  const [cart, setCart] = useState([]);
 
   const addItemToCart = (item) => {
-    setCart((prevCart) => {
-      const updatedTotalAmount =
-        prevCart.totalAmount + item.price * item.quantity;
-
-      const existingCartItemIndex = prevCart.items.findIndex(
-        (i) => i.id === item.id
-      );
-
-      let updatedItems;
-
-      if (existingCartItemIndex >= 0) {
-        const updatedItem = {
-          ...prevCart.items[existingCartItemIndex],
-          quantity:
-            prevCart.items[existingCartItemIndex].quantity + item.quantity,
-        };
-        updatedItems = [...prevCart.items];
-        updatedItems[existingCartItemIndex] = updatedItem;
-      } else {
-        updatedItems = prevCart.items.concat(item);
-      }
-
-      return {
-        items: updatedItems,
-        totalAmount: updatedTotalAmount,
-      };
-    });
+    console.log(item);
   };
 
   const removeItemFromCart = (id) => {
