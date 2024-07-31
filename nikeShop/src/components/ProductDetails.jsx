@@ -79,6 +79,7 @@ const ProductDetails = ({ products }) => {
         selectedSize,
         "quantity:"
       );
+      
       setShowAlert(true);
       setTimeout(() => setShowAlert(false), 3000);
     } else {
@@ -120,7 +121,7 @@ const ProductDetails = ({ products }) => {
 
         <PrimaryButton
           text="Add to Bag"
-          onClick={handleAddToBagClick}
+          handleClick={handleAddToBagClick}
           className="mt-[13.6em] px-[90px] py-4 -ml-0 rounded-full scale-110 hover:bg-zinc-500 hover:text-white text-nowrap font-sans"
         />
         <FavouriteButton
