@@ -2,6 +2,19 @@
 import React, { useContext } from "react";
 import { CartContext } from "../Context/Cart";
 import { Link } from "react-router-dom";
+import { Icon } from "@mui/material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowAltCircleDown,
+  faArrowAltCircleRight,
+  faBasketball,
+  faRemove,
+  faTrash,
+  faTrashAlt,
+  faTrashArrowUp,
+  faTrashRestore,
+} from "@fortawesome/free-solid-svg-icons";
+import ArrowCircleRight from "@mui/icons-material/ArrowCircleRight";
 
 const CartPage = () => {
   const { cart, removeItemFromCart } = useContext(CartContext);
@@ -23,7 +36,7 @@ const CartPage = () => {
             {cart.map((item, index) => (
               <div
                 key={index}
-                className="cart-item flex justify-between items-center mb-4 p-4 border rounded"
+                className="cart-item flex justify-between items-center mb-6 p-4 border rounded"
               >
                 <div className="item-details flex items-center">
                   <img
@@ -38,20 +51,20 @@ const CartPage = () => {
                     <p className="text-lg font-semibold">${item.price}</p>
                   </div>
                 </div>
-                <button
-                  className="remove-button text-red-600 hover:underline"
+                <FontAwesomeIcon
+                  icon={faTrashAlt}
+                  className="p-5 h-6 cursor-pointer "
                   onClick={() => handleRemoveClick(item.id)}
-                >
-                  Remove
-                </button>
+                />
               </div>
             ))}
           </div>
           <Link
             to="/checkout"
-            className="checkout-button bg-blue-500 text-white px-4 py-2 rounded mt-4"
+            className="checkout-button bg-blue-500 text-white px-4 py-4 ml-[43%] rounded-xl mt-4  hover:bg-blue-700"
           >
             Proceed to Checkout
+            <FontAwesomeIcon icon={faArrowAltCircleRight} className="px-2" />
           </Link>
         </div>
       )}
