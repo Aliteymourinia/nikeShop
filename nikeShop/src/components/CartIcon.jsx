@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import { CartContext } from "../Context/Cart";
-
+import { Link } from "react-router-dom";
 const CartIcon = () => {
   const { cartItemCount } = useContext(CartContext);
-
   return (
-    <div className="cart-icon relative">
+    <Link to="/cart" className="cart-icon relative">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -25,7 +24,7 @@ const CartIcon = () => {
           {cartItemCount}
         </div>
       )}
-    </div>
+    </Link>
   );
 };
 

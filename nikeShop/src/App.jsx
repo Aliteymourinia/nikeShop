@@ -43,7 +43,7 @@ function App() {
             element={<ProductDetails products={products} />}
           />
         </Route>
-        <Route path="CartPage" element={<CartIcon />} />
+        <Route path="Cart" element={<CartPage />} />
       </Routes>
     </CartProvider>
   );
