@@ -33,9 +33,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="iconContainer text-lg hover:cursor-pointer flex gap-4 items-center">
-        <Link to="/cart">
-          <CartIcon />
-        </Link>
+        <CartIcon />
 
         <Link to="/login">
           <FontAwesomeIcon icon={faUser} />
