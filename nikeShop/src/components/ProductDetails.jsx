@@ -118,7 +118,6 @@ const ProductDetails = ({ products }) => {
             ))}
           </tbody>
         </table>
-
         <PrimaryButton
           text="Add to Bag"
           handleClick={handleAddToBagClick}
