@@ -21,8 +21,7 @@ const HeartIcon = (
 
 const ProductDetails = ({ products }) => {
   const { id } = useParams();
-  const { cart, removeItemFromCart, addItemToCart } = useContext(CartContext);
-
+  const { addItemToCart } = useContext(CartContext);
   const [selectedSize, setSelectedSize] = useState(null);
   const [showAlert, setShowAlert] = useState(false);
 

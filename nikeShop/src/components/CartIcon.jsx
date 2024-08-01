@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const CartIcon = () => {
   const { cartItemCount } = useContext(CartContext);
+
   return (
     <div className="cart-icon-container relative">
       <Link to="/cart" className="cart-icon relative">
@@ -22,7 +23,7 @@ const CartIcon = () => {
           />
         </svg>
         {cartItemCount > 0 && (
-          <div className="absolute bottom-6 left-4 bg-red-500 text-white rounded-full text-xs h-4 w-4 flex items-center justify-center">
+          <div className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full text-xs h-4 w-4 flex items-center justify-center">
             {cartItemCount}
           </div>
         )}
