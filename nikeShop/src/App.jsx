@@ -10,6 +10,10 @@ import { CartProvider } from "./Context/Cart";
 import "./styles/App.css";
 import "./styles/index.css";
 import "./styles/Fonts.css";
+import CartIcon from "./components/CartIcon";
+import CartPage from "./components/CartPage";
+import Cart from "./components/Cart";
+import CardsTwo from "./components/CardsTwo";
 
 function App() {
   console.log("App rendered");
@@ -39,6 +43,7 @@ function App() {
             element={<ProductDetails products={products} />}
           />
         </Route>
+        <Route path="CartPage" element={<CartIcon />} />
       </Routes>
     </CartProvider>
   );
