@@ -12,5 +12,4 @@ function FavouriteButton({ text, className, icon, onClick }) {
     </div>
   );
 }
-
 export default FavouriteButton;
