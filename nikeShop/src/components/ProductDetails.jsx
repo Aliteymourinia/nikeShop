@@ -83,8 +83,6 @@ const ProductDetails = ({ products }) => {
         "quantity:"
       );
       addItemToCart(product);
-      setShowAlert(true);
-      setTimeout(() => setShowAlert(false), 3000);
     } else {
       console.log("No size selected");
       alert("Please select a size before adding to the bag.");
