@@ -21,29 +21,27 @@ const CartProvider = ({ children }) => {
         (i) => i.id === id
       );
       const existingItem = prevCart.items[existingCartItemIndex];
-      const updatedTotalAmount = prevCart.totalAmount - existingItem.price;
+      // const updatedTotalAmount = prevCart.totalAmount - existingItem.price;
 
-      let updatedItems;
+      if (!existingItem) return prevCart;
+
+      let updatedCart;
       if (existingItem.quantity === 1) {
-        updatedItems = prevCart.items.filter((i) => i.id !== id);
+        updatedCart = prevCart.filter((i) => i.id !== id);
+        setCartItemCount((count) => count - 1); //decrement the item count
       } else {
-        const updatedItem = {
-          ...existingItem,
-          quantity: existingItem.quantity - 1,
-        };
-        updatedItems = [...prevCart.items];
-        updatedItems[existingCartItemIndex] = updatedItem;
+        updatedCart = prevCart.map((item) =>
+          item.id === id ? { ...item, quantity: item.quantity - 1 } : item
+        );
       }
-
-      return {
-        items: updatedItems,
-        totalAmount: updatedTotalAmount,
-      };
+      return updatedCart;
     });
   };
 
   return (
-    <CartContext.Provider value={{ cart, addItemToCart, removeItemFromCart }}>
+    <CartContext.Provider
+      value={{ cart, cartItemCount, addItemToCart, removeItemFromCart }}
+    >
       {children}
     </CartContext.Provider>
   );
