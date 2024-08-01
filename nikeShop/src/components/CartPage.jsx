@@ -38,7 +38,7 @@ const CartPage = () => {
             {cart.map((item, index) => (
               <div
                 key={index}
-                className="cart-item flex justify-between items-center mb-6 p-4 border rounded"
+                className="cart-item flex justify-between items-center mb-5 p-4 border rounded"
               >
                 <div className="item-details flex items-center">
                   <img
@@ -61,13 +61,15 @@ const CartPage = () => {
               </div>
             ))}
           </div>
-          <Link
-            to="/checkout"
-            className="checkout-button bg-blue-500 text-white px-4 py-4 ml-[43%] rounded-xl mt-4  hover:bg-blue-700"
-          >
-            Proceed to Checkout
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="px-2" />
-          </Link>
+          <div className="Proceed-Container h-16 py-1  ">
+            <Link
+              to="/checkout"
+              className="checkout-button bg-blue-500 text-white px-6 py-4 ml-[43%] rounded-2xl hover:bg-blue-700 font-sans text-lg "
+            >
+              Proceed to Checkout
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="px-3 " />
+            </Link>
+          </div>
         </div>
       )}
     </div>
