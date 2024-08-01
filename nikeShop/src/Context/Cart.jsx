@@ -1,5 +1,5 @@
 // CartContext.js
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 // Create a context
 const CartContext = createContext();
@@ -9,6 +9,17 @@ const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [cartItemCount, setCartItemCount] = useState(0);
   console.log(cart);
+  
+ // Load cart from local storage on initial render
+  useEffect(() => {
+    const storedCart = localStorage.getItem("cart");
+    const storedCartCount = localStorage.getItem("cartCount");
+    if (storedCart) {
+      setCart(JSON.parse(storedCart));
+      setCartItemCount(parseInt(storedCartCount, 10));
+    }
+  }, []);
+  // Save cart to local storage whenever cart state changes
 
   const addItemToCart = (item) => {
     setCart((state) => [...state, item]);

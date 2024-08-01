@@ -55,7 +55,7 @@ const CartPage = () => {
                 </div>
                 <FontAwesomeIcon
                   icon={faTrashAlt}
-                  className="p-5 h-6 cursor-pointer "
+                  className="p-5 h-6 cursor-pointer"
                   onClick={() => handleRemoveClick(item.id)}
                 />
               </div>
