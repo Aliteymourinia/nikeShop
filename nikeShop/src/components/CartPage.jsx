@@ -64,7 +64,7 @@ const CartPage = () => {
           <div className="Proceed-Container h-16 py-1  ">
             <Link
               to="/checkout"
-              className="checkout-button bg-blue-500 text-white px-6 py-4 ml-[43%] rounded-2xl hover:bg-blue-700 font-sans text-lg "
+              className="checkout-button bg-blue-500 text-white px-6 py-4 ml-[43%] rounded-2xl hover:bg-blue-700 font-sans text-lg pl-9"
             >
               Proceed to Checkout
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="px-3 " />
