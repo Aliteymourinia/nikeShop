@@ -9,8 +9,8 @@ const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [cartItemCount, setCartItemCount] = useState(0);
   console.log(cart);
-  
- // Load cart from local storage on initial render
+
+  // Load cart from local storage on initial render
   useEffect(() => {
     const storedCart = localStorage.getItem("cart");
     const storedCartCount = localStorage.getItem("cartCount");
@@ -20,6 +20,10 @@ const CartProvider = ({ children }) => {
     }
   }, []);
   // Save cart to local storage whenever cart state changes
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+    localStorage.setItem("cartItemCount", cartItemCount);
+  }, [cart, cartItemCount]);
 
   const addItemToCart = (item) => {
     setCart((state) => [...state, item]);
@@ -28,23 +32,8 @@ const CartProvider = ({ children }) => {
 
   const removeItemFromCart = (id) => {
     setCart((prevCart) => {
-      const existingCartItemIndex = prevCart.items.findIndex(
-        (i) => i.id === id
-      );
-      const existingItem = prevCart.items[existingCartItemIndex];
-      // const updatedTotalAmount = prevCart.totalAmount - existingItem.price;
-
-      if (!existingItem) return prevCart;
-
-      let updatedCart;
-      if (existingItem.quantity === 1) {
-        updatedCart = prevCart.filter((i) => i.id !== id);
-        setCartItemCount((count) => count - 1); //decrement the item count
-      } else {
-        updatedCart = prevCart.map((item) =>
-          item.id === id ? { ...item, quantity: item.quantity - 1 } : item
-        );
-      }
+      const updatedCart = prevCart.filter((item) => item.id !== id);
+      setCartItemCount((count) => count - 1);
       return updatedCart;
     });
   };

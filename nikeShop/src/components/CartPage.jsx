@@ -5,16 +5,9 @@ import { Link } from "react-router-dom";
 import { Icon } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowAltCircleDown,
   faArrowAltCircleRight,
-  faBasketball,
-  faRemove,
-  faTrash,
   faTrashAlt,
-  faTrashArrowUp,
-  faTrashRestore,
 } from "@fortawesome/free-solid-svg-icons";
-import ArrowCircleRight from "@mui/icons-material/ArrowCircleRight";
 
 const CartPage = () => {
   const { cart, removeItemFromCart } = useContext(CartContext);
@@ -37,7 +30,7 @@ const CartPage = () => {
           <div className="cart-items">
             {cart.map((item, index) => (
               <div
-                key={index}
+                key={item.id}
                 className="cart-item flex justify-between items-center mb-5 p-4 border rounded"
               >
                 <div className="item-details flex items-center">
