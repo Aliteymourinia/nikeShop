@@ -7,9 +7,12 @@ const CartContext = createContext();
 // Create a provider component
 const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
+  const [cartItemCount, setCartItemCount] = useState(0);
   console.log(cart);
+
   const addItemToCart = (item) => {
     setCart((state) => [...state, item]);
+    setCartItemCount((count) => count + 1); //increment the cart item count
   };
 
   const removeItemFromCart = (id) => {
