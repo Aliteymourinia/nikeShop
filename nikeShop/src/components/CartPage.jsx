@@ -30,7 +30,7 @@ const CartPage = () => {
           <div className="cart-items">
             {cart.map((item, index) => (
               <div
-                key={item.id}
+                key={index}
                 className="cart-item flex justify-between items-center mb-5 p-4 border rounded"
               >
                 <div className="item-details flex items-center">

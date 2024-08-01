@@ -22,7 +22,7 @@ const CartIcon = () => {
           />
         </svg>
         {cartItemCount > 0 && (
-          <div className="absolute bottom-6 left-4 bg-red-600 text-white rounded-full text-xs h-4 w-4 flex items-center justify-center">
+          <div className="absolute bottom-6 left-4 bg-red-500 text-white rounded-full text-xs h-4 w-4 flex items-center justify-center">
             {cartItemCount}
           </div>
         )}
